@@ -1,9 +1,21 @@
+import Cors from 'cors'
+import initMiddleware from '../../lib/init-middleware'
+
+const cors = initMiddleware(
+    Cors({
+      methods: ['GET', 'PUT'],
+    })
+  )
+
 let state = {
     K: false,
     B: false
 }
 
-export default (req, res) => {
+export default async (req, res) => {
+
+    await cors(req,res);
+
     if(req.method === 'PUT'){
         let box = Object.keys(req.body)[0];
         state[box] = req.body[box];
