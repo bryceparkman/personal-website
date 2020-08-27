@@ -18,7 +18,12 @@ export default async (req, res) => {
 
     if(req.method === 'PUT'){
         let box = req.body.name;
-        state[box] = req.body.value;
+        if(req.body.value === "true"){
+            state[box] = true;
+        }
+        else if(req.body.value === "false"){
+            state[box] = false;
+        }
         res.status(200);
         res.end();
     }
