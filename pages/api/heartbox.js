@@ -17,9 +17,9 @@ export default async (req, res) => {
     await cors(req,res);
 
     if(req.method === 'PUT'){
-        let box = Object.keys(req.body)[0];
-        state[box] = req.body[box];
-        res.status(200)
+        let box = req.body.name;
+        state[box] = req.body.value;
+        res.status(200);
         res.end();
     }
     else if(req.method === 'GET'){
