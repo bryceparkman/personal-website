@@ -28,7 +28,7 @@ export default async (req, res) => {
         res.end();
     }
     else if(req.method === 'GET'){
-        res.status(200).send(1);
+        res.status(200).send('K=' + state["K"] + '&B=' + state["B"] + "\n");
         res.end();
     }
     else {
