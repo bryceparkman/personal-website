@@ -12,7 +12,7 @@ export default function Navigation() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     <Link href="/projects" passHref><Nav.Link>Projects</Nav.Link></Link>
-                    <Link href="/resume" passHref><Nav.Link>Résumé</Nav.Link></Link>
+                    <Nav.Link href='/Bryce-Parkman-Resume.pdf'>Résumé</Nav.Link>
                     {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

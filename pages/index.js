@@ -12,13 +12,36 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <p>Computer Science and Computational Mathematics Student</p>
       </section>
-      <section className={utilStyles.lightText} style={{textAlign: 'center'}}>
+      <section className={utilStyles.lightText} style={{ textAlign: 'center' }}>
         <p>
-          Welcome to my website! I am a Computer Science and Mathematics major at the University of Massachusetts Amherst. 
-          I am interested in all things robotics and the intersection of computer science and math. 
-          Experienced in full stack web development, app development, and mathematical visualization. 
+          Welcome to my website! I am a Computer Science and Mathematics major at the University of Massachusetts Amherst.
+          I am interested in all things robotics and the intersection of computer science and math.
+          Experienced in full stack web development, app development, and mathematical visualization.
           Check out my projects to see these skills in action.
       </p>
+      </section>
+      <section style={{ textAlign: 'center', marginTop: '2.5rem' }}>
+        <Link href='mailto:bparkman@umass.edu'>
+          <a>
+            <span className={utilStyles.contacts}>
+              <i className="fa fa-envelope fa-3x"></i>
+            </span>
+          </a>
+        </Link>
+        <Link href='https://github.com/bryceparkman'>
+          <a target="_blank">
+            <span className={utilStyles.contacts}>
+              <i className="fa fa-github fa-3x"></i>
+            </span>
+          </a>
+        </Link>
+        <Link href='https://www.linkedin.com/in/bryce-parkman/'>
+          <a target="_blank">
+            <span className={utilStyles.contacts}>
+              <i className="fa fa-linkedin fa-3x"></i>
+            </span>
+          </a>
+        </Link>
       </section>
     </Layout>
   )
