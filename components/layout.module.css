@@ -1,7 +1,7 @@
 .container {
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  max-width: 37rem;
+  padding: 1rem;
+  margin: 0.5rem auto;
 }
 
 .header {
@@ -16,10 +16,17 @@
 }
 
 .headerHomeImage {
-  width: 8rem;
-  height: 8rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+.navbar {
+  font-family: 'Arimo', sans-serif;
+  color: 'black';
+  font-size: x-large;
+  margin: auto;
 }
