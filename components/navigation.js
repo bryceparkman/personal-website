@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 export default function Navigation() {
     return (
         <Navbar bg="white" variant="light" expand="lg">
-            <Link href="/" passHref><Navbar.Brand style={{fontSize: 'x-large'}}>Bryce Parkman</Navbar.Brand></Link>
+            <Link href="/" passHref><Navbar.Brand style={{fontSize: 'x-large'}}>Home</Navbar.Brand></Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
