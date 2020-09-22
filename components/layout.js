@@ -20,7 +20,7 @@ export default function Layout({ children, home }) {
           />
           <meta
             property="og:image"
-            content={'/images/profile.jpeg'}
+            content={`https://bryce-parkman.vercel.app/images/profile.jpeg`}
           />
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
