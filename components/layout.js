@@ -15,7 +15,8 @@ export default function Layout({ children, home }) {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="Learn how to build a personal website using Next.js"
+            content=" Welcome to my website! I am a Computer Science and Mathematics major at the University of Massachusetts Amherst.
+            I am interested in all things robotics and the intersection of computer science and math."
           />
           <meta
             property="og:image"

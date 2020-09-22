@@ -21,27 +21,21 @@ export default function Home() {
       </p>
       </section>
       <section style={{ textAlign: 'center', marginTop: '2.5rem' }}>
-        <Link href='mailto:bparkman@umass.edu'>
-          <a>
-            <span className={utilStyles.contacts}>
-              <i className="fa fa-envelope fa-3x"></i>
-            </span>
-          </a>
-        </Link>
-        <Link href='https://github.com/bryceparkman'>
-          <a target="_blank">
-            <span className={utilStyles.contacts}>
-              <i className="fa fa-github fa-3x"></i>
-            </span>
-          </a>
-        </Link>
-        <Link href='https://www.linkedin.com/in/bryce-parkman/'>
-          <a target="_blank">
-            <span className={utilStyles.contacts}>
-              <i className="fa fa-linkedin fa-3x"></i>
-            </span>
-          </a>
-        </Link>
+        <a href='mailto:bparkman@umass.edu'>
+          <span className={utilStyles.contacts}>
+            <i className="fa fa-envelope fa-3x"></i>
+          </span>
+        </a>
+        <a href='https://github.com/bryceparkman' target="_blank">
+          <span className={utilStyles.contacts}>
+            <i className="fa fa-github fa-3x"></i>
+          </span>
+        </a>
+        <a href='https://www.linkedin.com/in/bryce-parkman/' target="_blank">
+          <span className={utilStyles.contacts}>
+            <i className="fa fa-linkedin fa-3x"></i>
+          </span>
+        </a>
       </section>
     </Layout>
   )
