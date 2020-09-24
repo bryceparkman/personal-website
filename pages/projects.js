@@ -15,7 +15,7 @@ export default function Project() {
             <Card className={utilStyles.projectRow}>
                 <Row className={utilStyles.projectRow}>
                     <Col>
-                        <Image rounded src="/images/profile.jpeg" />
+                        <Image rounded src="/images/nadine.png" />
                     </Col>
                     <Col>
                         <h2>
