@@ -28,7 +28,7 @@ export default function Navigation() {
                         </Nav.Link>
                     </Link>
                     <Nav.Link href='/Bryce-Parkman-Resume.pdf'>
-                        <div style={{color: '#777'}}>
+                        <div style={{color: 'rgba(0, 0, 0, 0.5)'}}>
                             Résumé
                         </div>
                     </Nav.Link>
