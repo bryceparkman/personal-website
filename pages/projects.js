@@ -12,10 +12,14 @@ export default function Project() {
             <Head>
                 <title>Projects</title>
             </Head>
+            <section className={utilStyles.headingMd} style={{marginTop: '20px'}}>
+                <i className="fa fa-exclamation-triangle fa-5x" style={{color: '#FFCC00'}}></i>
+                <p style={{marginTop: '30px'}}>This page is under construction. Come back later!</p>
+            </section>
             <Card className={utilStyles.projectRow}>
                 <Row className={utilStyles.projectRow}>
                     <Col>
-                        <Image rounded src="/images/profile.jpeg" />
+                        <Image rounded src="/images/nadine.png" />
                     </Col>
                     <Col>
                         <h2>
