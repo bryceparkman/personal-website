@@ -11,7 +11,7 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <p>Computer Science and Computational Mathematics Student</p>
       </section>
-      <section className={utilStyles.lightText} style={{ textAlign: 'center' }}>
+      <section className={utilStyles.lightText} style={{ textAlign: 'center', maxWidth: '37rem', margin: 'auto' }}>
         <p>
           Welcome to my website! I am a Computer Science and Mathematics major at the University of Massachusetts Amherst.
           I am interested in all things robotics and the intersection of computer science and math.
