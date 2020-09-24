@@ -1,25 +1,37 @@
 import Link from 'next/link'
-
+import { useRouter } from 'next/router'
+import utilStyles from '../styles/utils.module.css'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 
 export default function Navigation() {
+    const router = useRouter();
     return (
-        <Navbar bg="white" variant="light" expand="lg">
-            <Link href="/" passHref><Navbar.Brand style={{fontSize: 'x-large'}}>Home</Navbar.Brand></Link>
+        <Navbar bg="white" variant="light">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
+                <Nav>
+                    <Link href="/" passHref>
+                        <Nav.Link>
+                            <div className={router.pathname === '/' ? utilStyles.active : ''}>
+                                Home
+                            </div>
+                        </Nav.Link>
+                    </Link>
+                </Nav>
                 <Nav className="ml-auto">
-                    <Link href="/projects" passHref><Nav.Link>Projects</Nav.Link></Link>
-                    <Nav.Link href='/Bryce-Parkman-Resume.pdf'>Résumé</Nav.Link>
-                    {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                    </NavDropdown> */}
+                    <Link href="/projects" passHref>
+                        <Nav.Link>
+                            <div className={router.pathname === '/projects' ? utilStyles.active : ''}>
+                                Projects
+                            </div>
+                        </Nav.Link>
+                    </Link>
+                    <Nav.Link href='/Bryce-Parkman-Resume.pdf'>
+                        <div style={{color: '#777'}}>
+                            Résumé
+                        </div>
+                    </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

@@ -61,3 +61,7 @@
 .projectRow {
   margin: 20px 0px;
 }
+
+.active {
+  color: #444;
+}
