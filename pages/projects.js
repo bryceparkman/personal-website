@@ -12,50 +12,60 @@ export default function Project() {
             <Head>
                 <title>Projects</title>
             </Head>
-            <Card>
-            <Row className={utilStyles.projectRow}>
-                <Col>
-                    <Image rounded src="/images/profile.jpeg" />
-                </Col>
-                <Col>
-                    <h2>
-                        Nadine El Nesr
+            <Card className={utilStyles.projectRow}>
+                <Row className={utilStyles.projectRow}>
+                    <Col>
+                        <Image rounded src="/images/profile.jpeg" />
+                    </Col>
+                    <Col>
+                        <h2>
+                            Nadine El Nesr
                     </h2>
-                    <div>
-                        Hello
+                        <div>
+                            Commissioned work for a local artist who could not afford to make her own website. 
+                            The website features her fine art, fashion, and experimental projects. The website is designed to 
+                            have mobile-friendly navigation, robust animations, and self-populating images. I built it with React, Bootstrap, and Firebase.
                     </div>
-                </Col>
-            </Row>
+                    </Col>
+                </Row>
             </Card>
-            <Row className={utilStyles.projectRow}>
-                <Col>
-                    <Image rounded src="/images/profile.jpeg" />
-                </Col>
-                <Col>
-                    <h2>
-                        Student Bridges
+            <Card className={utilStyles.projectRow}>
+                <Row className={utilStyles.projectRow}>
+                    <Col>
+                        <Image rounded src="/images/profile.jpeg" />
+                    </Col>
+                    <Col>
+                        <h2>
+                            Student Bridges
                     </h2>
-                    <div>
-                     Collaborated in a six-person team to develop a website for the UMass Amherst organization Student Bridges,
-                     which provides easier college access for underrepresented students. I learned valuable project management techniques
-                     gained strong communication skills by attending meetings with Student Bridges to discuss website features.
-                     Built with Bootstrap, Express, NodeJS, and Firebase.
+                        <div>
+                            Collaborated in a six-person team to develop a website for the UMass Amherst organization Student Bridges,
+                            which provides easier college access for underrepresented students. The website allows these students to
+                            access Student Bridges contact information, calendars, and workshop details much easier than before and will
+                            hopefully give this organizaiton more outreach. We built this website with Bootstrap, Express, NodeJS, and Firebase.
                     </div>
-                </Col>
-            </Row>
-            <Row className={utilStyles.projectRow}>
-                <Col>
-                    <Image rounded src="/images/profile.jpeg" />
-                </Col>
-                <Col>
-                    <h2>
-                        MASKerAID
+                    </Col>
+                </Row>
+            </Card>
+            <Card className={utilStyles.projectRow}>
+                <Row className={utilStyles.projectRow}>
+                    <Col>
+                        <Image rounded src="/images/profile.jpeg" />
+                    </Col>
+                    <Col>
+                        <h2>
+                            MASKerAID
                     </h2>
-                    <div>
-                        Hello
-                    </div>
-                </Col>
-            </Row>
+                        <div>
+                            In the MedHack 2020 hackathon, I collaborated with 3 other students to develop MASKerAID.
+                            This device would communicate with your phone and display the temperature
+                            and humidity in the mask, and alert you if the filter needs to be replaced or if the air quality is poor. 
+                            Out of 700 teams competing we placed 3rd place in the pandemic hack category.
+                            The companion app was built with React Native, and the insert was prototyped with Arduino.
+                        </div>
+                    </Col>
+                </Row>
+            </Card>
             {/* <Card style={{ width: '18rem' }}>
                 <Card.Image variant="top" src="../public/images/profile.jpeg" />
                 <Card.Body>
