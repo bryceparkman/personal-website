@@ -3,6 +3,10 @@ import { useRouter } from 'next/router'
 import utilStyles from '../styles/utils.module.css'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+import ButtonGroup from 'react-bootstrap/ButtonGroup'
+import Button from 'react-bootstrap/Button'
+import Dropdown from 'react-bootstrap/Dropdown'
 
 export default function Navigation() {
     const router = useRouter();
@@ -27,8 +31,13 @@ export default function Navigation() {
                             </div>
                         </Nav.Link>
                     </Link>
+                    <NavDropdown>
+                        <NavDropdown.Item href="/nadine">Nadine El Nesr</NavDropdown.Item>
+                        <NavDropdown.Item href="/bridges">Student Bridges</NavDropdown.Item>
+                        <NavDropdown.Item href="/mask">MASKerAID</NavDropdown.Item>
+                    </NavDropdown>
                     <Nav.Link href='/Bryce-Parkman-Resume.pdf'>
-                        <div style={{color: 'rgba(0, 0, 0, 0.5)'}}>
+                        <div style={{ color: 'rgba(0, 0, 0, 0.5)' }}>
                             Résumé
                         </div>
                     </Nav.Link>
