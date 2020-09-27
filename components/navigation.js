@@ -28,7 +28,7 @@ export default function Navigation() {
                             </div>
                         </Nav.Link>
                     </Link>
-                    <NavDropdown>
+                    <NavDropdown title='projects'>
                         <NavDropdown.Item href="/nadine">Nadine El Nesr</NavDropdown.Item>
                         <NavDropdown.Item href="/bridges">Student Bridges</NavDropdown.Item>
                         <NavDropdown.Item href="/mask">MASKerAID</NavDropdown.Item>
