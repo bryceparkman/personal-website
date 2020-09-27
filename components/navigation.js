@@ -4,14 +4,11 @@ import utilStyles from '../styles/utils.module.css'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
-import ButtonGroup from 'react-bootstrap/ButtonGroup'
-import Button from 'react-bootstrap/Button'
-import Dropdown from 'react-bootstrap/Dropdown'
 
 export default function Navigation() {
     const router = useRouter();
     return (
-        <Navbar bg="white" variant="light">
+        <Navbar bg="white" variant="light" expand="md">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav>
