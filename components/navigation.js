@@ -21,14 +21,15 @@ export default function Navigation() {
                     </Link>
                 </Nav>
                 <Nav className="ml-auto">
-                    <Link href="/projects" passHref>
+                    {/* <Link href="/projects" passHref>
                         <Nav.Link>
                             <div className={router.pathname === '/projects' ? utilStyles.active : ''}>
                                 Projects
                             </div>
                         </Nav.Link>
-                    </Link>
-                    <NavDropdown title='projects'>
+                    </Link> */}
+                    <NavDropdown title={<span className={router.pathname !== '/' && router.pathname !== '/resume' ? utilStyles.active : ''}>Projects</span>}>
+                        <NavDropdown.Item href="/projects">Overview</NavDropdown.Item>
                         <NavDropdown.Item href="/nadine">Nadine El Nesr</NavDropdown.Item>
                         <NavDropdown.Item href="/bridges">Student Bridges</NavDropdown.Item>
                         <NavDropdown.Item href="/mask">MASKerAID</NavDropdown.Item>
