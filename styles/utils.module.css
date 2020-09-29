@@ -71,6 +71,7 @@
 }
 
 .projectCard:hover {
-  opacity: 0.6;
-  filter: grayscale(10%)
+  opacity: 0.7;
+  cursor: pointer;
+  
 }
