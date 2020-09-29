@@ -21,18 +21,11 @@ export default function Navigation() {
                     </Link>
                 </Nav>
                 <Nav className="ml-auto">
-                    {/* <Link href="/projects" passHref>
-                        <Nav.Link>
-                            <div className={router.pathname === '/projects' ? utilStyles.active : ''}>
-                                Projects
-                            </div>
-                        </Nav.Link>
-                    </Link> */}
                     <NavDropdown title={<span className={router.pathname !== '/' && router.pathname !== '/resume' ? utilStyles.active : ''}>Projects</span>}>
                         <NavDropdown.Item href="/projects">Overview</NavDropdown.Item>
-                        <NavDropdown.Item href="/nadine">Nadine El Nesr</NavDropdown.Item>
-                        <NavDropdown.Item href="/bridges">Student Bridges</NavDropdown.Item>
-                        <NavDropdown.Item href="/mask">MASKerAID</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/nadine">Nadine El Nesr</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/bridges">Student Bridges</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/mask">MASKerAID</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href='/Bryce-Parkman-Resume.pdf'>
                         <div style={{ color: 'rgba(0, 0, 0, 0.5)' }}>

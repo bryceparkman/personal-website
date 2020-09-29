@@ -65,3 +65,13 @@
 .active {
   color: #444;
 }
+
+.projectCard{
+  margin: 20px 0px;
+}
+
+.projectCard:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  
+}
