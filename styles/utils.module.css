@@ -101,3 +101,11 @@
 .projectCard:hover .overlayArrow {
   opacity: 1;
 }
+
+.projectCard:active .projectRow {
+  opacity: 0.3;
+}
+
+.projectCard:active .overlayArrow {
+  opacity: 1;
+}
