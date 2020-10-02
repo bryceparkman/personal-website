@@ -14,10 +14,6 @@ export default function Project() {
             <Head>
                 <title>Projects</title>
             </Head>
-            <section className={utilStyles.headingMd} style={{ marginTop: '20px' }}>
-                <i className="fa fa-exclamation-triangle fa-5x" style={{ color: '#FFCC00' }}></i>
-                <p style={{ marginTop: '30px' }}>This page is under construction. Come back later!</p>
-            </section>
             <Link href='/projects/nadine'>
                 <Card className={utilStyles.projectCard}>
                     <Container>
@@ -28,25 +24,28 @@ export default function Project() {
                             <Col lg>
                                 <h2>
                                     Nadine El Nesr
-                            </h2>
+                                </h2>
                                 <div>
                                     Commissioned work for a local artist who could not afford to make her own website.
                                     The website features her fine art, fashion, and experimental projects. The website is designed to
                                     have mobile-friendly navigation, robust animations, and self-populating images. I built it with React, Bootstrap, and Firebase.
-                            </div>
+                                </div>
                             </Col>
                         </Row>
                     </Container>
+                    <div className={utilStyles.overlayArrow}>
+                        <i className='fa fa-arrow-right fa-3x'></i>
+                    </div>
                 </Card>
             </Link>
             <Link href='/projects/bridges'>
                 <Card className={utilStyles.projectCard}>
                     <Container>
                         <Row className={utilStyles.projectRow}>
-                            <Col>
+                            <Col lg>
                                 <Image rounded src="/images/bridges.png" />
                             </Col>
-                            <Col>
+                            <Col lg>
                                 <h2>
                                     Student Bridges
                             </h2>
@@ -59,16 +58,19 @@ export default function Project() {
                             </Col>
                         </Row>
                     </Container>
+                    <div className={utilStyles.overlayArrow}>
+                        <i className='fa fa-arrow-right fa-3x'></i>
+                    </div>
                 </Card>
             </Link>
             <Link href='/projects/bridges'>
                 <Card className={utilStyles.projectCard}>
                     <Container>
                         <Row className={utilStyles.projectRow}>
-                            <Col>
+                            <Col lg>
                                 <Image rounded src="/images/mask.png" />
                             </Col>
-                            <Col>
+                            <Col lg>
                                 <h2>
                                     MASKerAID
                             </h2>
@@ -82,6 +84,9 @@ export default function Project() {
                             </Col>
                         </Row>
                     </Container>
+                    <div className={utilStyles.overlayArrow}>
+                        <i className='fa fa-arrow-right fa-3x'></i>
+                    </div>
                 </Card>
             </Link>
         </Layout>
