@@ -42,10 +42,10 @@ export default function Project() {
                 <Card className={utilStyles.projectCard}>
                     <Container>
                         <Row className={utilStyles.projectRow}>
-                            <Col>
+                            <Col lg>
                                 <Image rounded src="/images/bridges.png" />
                             </Col>
-                            <Col>
+                            <Col lg>
                                 <h2>
                                     Student Bridges
                             </h2>
@@ -67,10 +67,10 @@ export default function Project() {
                 <Card className={utilStyles.projectCard}>
                     <Container>
                         <Row className={utilStyles.projectRow}>
-                            <Col>
+                            <Col lg>
                                 <Image rounded src="/images/mask.png" />
                             </Col>
-                            <Col>
+                            <Col lg>
                                 <h2>
                                     MASKerAID
                             </h2>
