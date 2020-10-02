@@ -62,6 +62,9 @@ export default function Project() {
                             </Col>
                         </Row>
                     </Container>
+                    <div className={utilStyles.overlayArrow}>
+                        <i className='fa fa-arrow-right fa-3x'></i>
+                    </div>
                 </Card>
             </Link>
             <Link href='/projects/bridges'>
@@ -85,6 +88,9 @@ export default function Project() {
                             </Col>
                         </Row>
                     </Container>
+                    <div className={utilStyles.overlayArrow}>
+                        <i className='fa fa-arrow-right fa-3x'></i>
+                    </div>
                 </Card>
             </Link>
         </Layout>
