@@ -71,7 +71,33 @@
 }
 
 .projectCard:hover {
-  opacity: 0.7;
   cursor: pointer;
-  
+}
+
+.overlay {
+  position: relative;
+}
+
+.mainCard {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.overlayArrow {
+  opacity: 0;
+  position: absolute;
+  color: #41273b;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.projectCard:hover .projectRow {
+  opacity: 0.3;
+}
+
+.projectCard:hover .overlayArrow {
+  opacity: 1;
 }

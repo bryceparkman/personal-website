@@ -28,15 +28,18 @@ export default function Project() {
                             <Col lg>
                                 <h2>
                                     Nadine El Nesr
-                            </h2>
+                                </h2>
                                 <div>
                                     Commissioned work for a local artist who could not afford to make her own website.
                                     The website features her fine art, fashion, and experimental projects. The website is designed to
                                     have mobile-friendly navigation, robust animations, and self-populating images. I built it with React, Bootstrap, and Firebase.
-                            </div>
+                                </div>
                             </Col>
                         </Row>
                     </Container>
+                    <div className={utilStyles.overlayArrow}>
+                        <i className='fa fa-arrow-right fa-3x'></i>
+                    </div>
                 </Card>
             </Link>
             <Link href='/projects/bridges'>
