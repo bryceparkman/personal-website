@@ -26,6 +26,7 @@ export default function Navigation() {
                         <NavDropdown.Item href="/projects/nadine">Nadine El Nesr</NavDropdown.Item>
                         <NavDropdown.Item href="/projects/bridges">Student Bridges</NavDropdown.Item>
                         <NavDropdown.Item href="/projects/mask">MASKerAID</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/visualizations">Visualizations</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href='/Bryce-Parkman-Resume.pdf'>
                         <div style={{ color: 'rgba(0, 0, 0, 0.5)' }}>
