@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
+import Construction from '../components/construction'
 
 export default function Project() {
     return (
@@ -14,6 +15,7 @@ export default function Project() {
             <Head>
                 <title>Projects</title>
             </Head>
+            <Construction/>
             <Link href='/projects/nadine'>
                 <Card className={utilStyles.projectCard}>
                     <Container>
@@ -80,6 +82,28 @@ export default function Project() {
                                     and humidity in the mask, and alert you if the filter needs to be replaced or if the air quality is poor.
                                     Out of 700 teams competing we placed 3rd place in the pandemic hack category.
                                     The companion app was built with React Native, and the insert was prototyped with Arduino.
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+                    <div className={utilStyles.overlayArrow}>
+                        <i className='fa fa-arrow-right fa-3x'></i>
+                    </div>
+                </Card>
+            </Link>
+            <Link href='/projects/visualizations'>
+                <Card className={utilStyles.projectCard}>
+                    <Container>
+                        <Row className={utilStyles.projectRow}>
+                            <Col lg>
+                                <Image rounded src="/images/profile.jpeg" />
+                            </Col>
+                            <Col lg>
+                                <h2>
+                                    Visualizations
+                            </h2>
+                                <div>
+                                    Lorem Ipsum
                                 </div>
                             </Col>
                         </Row>
