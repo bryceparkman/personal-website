@@ -11,7 +11,7 @@ export default function Visualizations() {
             </Head>
             <Construction/>
             <div className={utilStyles.headingMd}>
-                <iframe src="https://editor.p5js.org/brycecparkman/embed/C5WPTqD4-" width={640} height={560}></iframe>
+                <iframe src="https://editor.p5js.org/brycecparkman/embed/C5WPTqD4-" width={640} height={580} frameBorder={0}></iframe>
             </div>
         </Layout>
     )
