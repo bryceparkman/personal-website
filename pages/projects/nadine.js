@@ -15,7 +15,7 @@ export default function Nadine() {
                 <title>Bryce Parkman - Nadine El Nesr</title>
             </Head>
             <Construction />
-            {ProjectHeader('https://nadine-elnesr.web.app/','https://github.com/bryceparkman/nadinelnesr/')}
+            {ProjectHeader('https://nadine-elnesr.web.app/','https://github.com/bryceparkman/nadineelnesr/')}
         </Layout>
     )
 }
