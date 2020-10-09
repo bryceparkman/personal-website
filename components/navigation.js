@@ -22,7 +22,7 @@ export default function Navigation() {
                 </Nav>
                 <Nav className="ml-auto">
                     <NavDropdown title={<span className={router.pathname !== '/' && router.pathname !== '/resume' ? utilStyles.active : ''}>Projects</span>}>
-                        <NavDropdown.Item href="/projects">Overview</NavDropdown.Item>
+                        <NavDropdown.Item href="/overview">Overview</NavDropdown.Item>
                         <NavDropdown.Item href="/projects/nadine">Nadine El Nesr</NavDropdown.Item>
                         <NavDropdown.Item href="/projects/bridges">Student Bridges</NavDropdown.Item>
                         <NavDropdown.Item href="/projects/mask">MASKerAID</NavDropdown.Item>
