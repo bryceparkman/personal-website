@@ -7,7 +7,7 @@ export default function Visualizations() {
     return (
         <Layout>
             <Head>
-                <title>Visualizations</title>
+                <title>Bryce Parkman - Visualizations</title>
             </Head>
             <Construction/>
             <div className={utilStyles.headingMd}>

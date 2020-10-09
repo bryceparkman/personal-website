@@ -27,12 +27,12 @@ export default function Home() {
         </a>
         <a href='https://github.com/bryceparkman' target="_blank">
           <span className={utilStyles.contacts}>
-            <i className="fa fa-github fa-3x"></i>
+            <i className="fab fa-github fa-3x"></i>
           </span>
         </a>
         <a href='https://www.linkedin.com/in/bryce-parkman/' target="_blank">
           <span className={utilStyles.contacts}>
-            <i className="fa fa-linkedin fa-3x"></i>
+            <i className="fab fa-linkedin fa-3x"></i>
           </span>
         </a>
       </section>

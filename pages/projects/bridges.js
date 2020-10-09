@@ -6,7 +6,7 @@ export default function Bridges() {
     return (
         <Layout>
             <Head>
-                <title>Student Bridges</title>
+                <title>Bryce Parkman - Student Bridges</title>
             </Head>
             <Construction/>
         </Layout>

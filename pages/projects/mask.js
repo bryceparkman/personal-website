@@ -6,7 +6,7 @@ export default function Mask() {
     return (
         <Layout>
             <Head>
-                <title>MASKerAID</title>
+                <title>Bryce Parkman - MASKerAID</title>
             </Head>
             <Construction/>
         </Layout>
