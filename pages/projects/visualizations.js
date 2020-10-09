@@ -1,6 +1,6 @@
 import Construction from '../../components/construction'
 import Head from 'next/head';
-import Link from 'next/Link'
+import Link from 'next/link'
 import Layout from '../../components/layout'
 import styles from '../../components/layout.module.css'
 import utilStyles from '../../styles/utils.module.css'
