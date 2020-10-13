@@ -41,7 +41,7 @@ export default function Visualizations() {
                             <Card.Body>
                                 <Card.Title>Impact Viewer</Card.Title>
                                 <Card.Text>
-                                    A visual interpretation of the JPL Sentry API, which tracks asteroids and their potential impact trajectories. For each asteroid, the size, threat level, and potential impact data/energy is displayed.
+                                    A visual interpretation of the JPL Sentry API, which tracks asteroids and their potential impact trajectories. For each asteroid the size, threat level, and potential impact date/energy is displayed.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
