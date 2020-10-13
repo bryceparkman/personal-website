@@ -36,6 +36,7 @@ export default function Visualizations() {
                         </Link>
                     </Col>
                     <Col lg={4}>
+                        <Link href='sketches/impacts'>
                         <Card style={{cursor: 'pointer', marginTop: '20px'}}>
                             <Card.Img variant="top" src="/images/impacts.png" />
                             <Card.Body>
@@ -45,8 +46,10 @@ export default function Visualizations() {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                        </Link>
                     </Col>
                     <Col lg={4}>
+                        <Link href='sketches/hue'>
                         <Card style={{cursor: 'pointer', marginTop: '20px'}}>
                             <Card.Img variant="top" src="/images/hue.png" />
                             <Card.Body>
@@ -56,6 +59,7 @@ export default function Visualizations() {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                        </Link>
                     </Col>
                 </Row>
                 <Row>
