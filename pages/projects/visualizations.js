@@ -55,7 +55,7 @@ export default function Visualizations() {
                             <Card.Body>
                                 <Card.Title>I Love Hue Remake</Card.Title>
                                 <Card.Text>
-                                    Remake of the "I Love Hue" app with p5.js. Puzzle game that rearranges blocks of a gradient and tasks the user to put the gradient back into order. Features randomized tile and color gradient selection.
+                                    Remake of the "I Love Hue" app. Puzzle game that rearranges blocks of a gradient and tasks the user to put the gradient back into order. Randomized tile and color gradient selection.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -64,19 +64,20 @@ export default function Visualizations() {
                 </Row>
                 <Row>
                     <Col lg={4}>
-                        <Link href='sketches/leaves'>
+                        <Link href='sketches/wiggle'>
                             <Card style={{cursor: 'pointer', marginTop: '20px'}}>
-                                <Card.Img variant="top" src="/images/leaves.png" />
+                                <Card.Img variant="top" src="/images/wiggle.png" />
                                 <Card.Body>
-                                    <Card.Title>Falling, Changing</Card.Title>
+                                    <Card.Title>Perlin Noise Blob</Card.Title>
                                     <Card.Text>
-                                        An interactive simulation of falling leaves with varying types of wind. Uses matter.js physics engine and adjustable inputs to inspire the user to create their own meaning and beauty out of the visuals.
+                                        A visualization of Perlin noise. Spoke heights are generated using Perlin noise to create a the different shapes. Try moving your mouse around and interacting with the controls.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
                         </Link>
                     </Col>
                     <Col lg={4}>
+                    <Link href='sketches/impacts'>
                         <Card style={{cursor: 'pointer', marginTop: '20px'}}>
                             <Card.Img variant="top" src="/images/impacts.png" />
                             <Card.Body>
@@ -86,8 +87,10 @@ export default function Visualizations() {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                        </Link>
                     </Col>
                     <Col lg={4}>
+                        <Link href='sketches/hue'>
                         <Card style={{cursor: 'pointer', marginTop: '20px'}}>
                             <Card.Img variant="top" src="/images/hue.png" />
                             <Card.Body>
@@ -97,6 +100,7 @@ export default function Visualizations() {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                        </Link>
                     </Col>
                 </Row>
             </Container>
