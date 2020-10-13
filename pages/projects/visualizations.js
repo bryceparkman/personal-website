@@ -58,6 +58,43 @@ export default function Visualizations() {
                         </Card>
                     </Col>
                 </Row>
+                <Row>
+                    <Col lg={4}>
+                        <Link href='sketches/leaves'>
+                            <Card style={{cursor: 'pointer', marginTop: '20px'}}>
+                                <Card.Img variant="top" src="/images/leaves.png" />
+                                <Card.Body>
+                                    <Card.Title>Falling, Changing</Card.Title>
+                                    <Card.Text>
+                                        An interactive simulation of falling leaves with varying types of wind. Uses matter.js physics engine and adjustable inputs to inspire the user to create their own meaning and beauty out of the visuals.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Link>
+                    </Col>
+                    <Col lg={4}>
+                        <Card style={{cursor: 'pointer', marginTop: '20px'}}>
+                            <Card.Img variant="top" src="/images/impacts.png" />
+                            <Card.Body>
+                                <Card.Title>Impact Viewer</Card.Title>
+                                <Card.Text>
+                                    A visual interpretation of the JPL Sentry API, which tracks asteroids and their potential impact trajectories. For each asteroid the size, threat level, and potential impact date/energy is displayed.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col lg={4}>
+                        <Card style={{cursor: 'pointer', marginTop: '20px'}}>
+                            <Card.Img variant="top" src="/images/hue.png" />
+                            <Card.Body>
+                                <Card.Title>I Love Hue Remake</Card.Title>
+                                <Card.Text>
+                                    Remake of the "I Love Hue" app with p5.js. Puzzle game that rearranges blocks of a gradient and tasks the user to put the gradient back into order. Features randomized tile and color gradient selection.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
             </Container>
         </div>
     )
