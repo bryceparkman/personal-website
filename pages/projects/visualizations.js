@@ -24,7 +24,7 @@ export default function Visualizations() {
                 <Row>
                     <Col lg={4}>
                         <Link href='sketches/leaves'>
-                            <Card style={{cursor: 'pointer'}}>
+                            <Card style={{cursor: 'pointer', marginTop: '20px'}}>
                                 <Card.Img variant="top" src="/images/leaves.png" />
                                 <Card.Body>
                                     <Card.Title>Falling, Changing</Card.Title>
@@ -36,25 +36,23 @@ export default function Visualizations() {
                         </Link>
                     </Col>
                     <Col lg={4}>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card style={{cursor: 'pointer', marginTop: '20px'}}>
+                            <Card.Img variant="top" src="/images/impacts.png" />
                             <Card.Body>
-                                <Card.Title>Falling, Changing</Card.Title>
+                                <Card.Title>Impact Viewer</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    A visual interpretation of the JPL Sentry API, which tracks asteroids and their potential impact trajectories. For each asteroid, the size, threat level, and potential impact data/energy is displayed.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col lg={4}>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card style={{cursor: 'pointer', marginTop: '20px'}}>
+                            <Card.Img variant="top" src="/images/hue.png" />
                             <Card.Body>
-                                <Card.Title>Falling, Changing</Card.Title>
+                                <Card.Title>I Love Hue Remake</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    Remake of the "I Love Hue" app with p5.js. Puzzle game that rearranges blocks of a gradient and tasks the user to put the gradient back into order. Features randomized tile and color gradient selection.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
