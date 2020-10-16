@@ -77,13 +77,13 @@ export default function Visualizations() {
                         </Link>
                     </Col>
                     <Col lg={4}>
-                    <Link href='sketches/impacts'>
+                    <Link href='sketches/flock'>
                         <Card style={{cursor: 'pointer', marginTop: '20px'}}>
                             <Card.Img variant="top" src="/images/flock.png" />
                             <Card.Body>
-                                <Card.Title>Impact Viewer</Card.Title>
+                                <Card.Title>Flocking Simulation</Card.Title>
                                 <Card.Text>
-                                    A visual interpretation of the JPL Sentry API, which tracks asteroids and their potential impact trajectories. For each asteroid the size, threat level, and potential impact date/energy is displayed.
+                                    A flocking simulation based on Craig Reynolds "Boids" engine. On top of this engine, each bird has a true to life field of view. Users can also interact with the birds themselves.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
