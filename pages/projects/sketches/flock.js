@@ -10,7 +10,7 @@ export default function Flock() {
                 <title>Bryce Parkman - Flocking SImulation</title>
             </Head>
             <div className={utilStyles.headingMd}>
-                <iframe src="https://editor.p5js.org/brycecparkman/embed/zZz2SBkV6" width={640} height={580} frameBorder={0} style={{touchAction: 'auto'}}></iframe>
+                <iframe src="https://editor.p5js.org/brycecparkman/embed/zZz2SBkV6" width={640} height={580} frameBorder={0}></iframe>
             </div>
             <Warning />
         </Layout>
