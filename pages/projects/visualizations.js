@@ -79,7 +79,7 @@ export default function Visualizations() {
                     <Col lg={4}>
                     <Link href='sketches/impacts'>
                         <Card style={{cursor: 'pointer', marginTop: '20px'}}>
-                            <Card.Img variant="top" src="/images/impacts.png" />
+                            <Card.Img variant="top" src="/images/flock.png" />
                             <Card.Body>
                                 <Card.Title>Impact Viewer</Card.Title>
                                 <Card.Text>
