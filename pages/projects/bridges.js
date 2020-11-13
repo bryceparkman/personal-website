@@ -9,8 +9,8 @@ export default function Bridges() {
             <Head>
                 <title>Bryce Parkman - Student Bridges</title>
             </Head>
-            <Construction/>
             {ProjectHeader('https://studentbridgesagency.org/','https://github.com/build-umass/student-bridges')}
+            <Construction/>
         </Layout>
     )
 }
