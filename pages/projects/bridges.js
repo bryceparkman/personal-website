@@ -5,7 +5,7 @@ import ProjectHeader from '../../components/websiteHeader'
 
 export default function Bridges() {
     return (
-        <Layout>
+        <Layout page='individualProj'>
             <Head>
                 <title>Bryce Parkman - Student Bridges</title>
             </Head>

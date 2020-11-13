@@ -5,7 +5,7 @@ import utilStyles from '../../../styles/utils.module.css'
 
 export default function Flock() {
     return (
-        <Layout>
+        <Layout page='individualVis'>
             <Head>
                 <title>Bryce Parkman - Flocking SImulation</title>
             </Head>

@@ -5,7 +5,7 @@ import utilStyles from '../../../styles/utils.module.css'
 
 export default function Impacts() {
     return (
-        <Layout>
+        <Layout page='individualVis'>
             <Head>
                 <title>Bryce Parkman - Impact Viewer</title>
             </Head>

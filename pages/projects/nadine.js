@@ -10,7 +10,7 @@ import Container from 'react-bootstrap/Container'
 
 export default function Nadine() {
     return (
-        <Layout>
+        <Layout page='individualProj'>
             <Head>
                 <title>Bryce Parkman - Nadine El Nesr</title>
             </Head>

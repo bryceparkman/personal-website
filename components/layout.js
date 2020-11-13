@@ -7,7 +7,7 @@ import Navigation from './navigation'
 const name = 'Bryce Parkman'
 export const siteTitle = 'Bryce Parkman'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, page }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -29,7 +29,7 @@ export default function Layout({ children, home }) {
           <Navigation />
         </div>
         <header className={styles.header}>
-          {home ? (
+          {page === 'home' ? (
             <>
               <img
                 src="/images/profile.jpeg"
@@ -44,12 +44,26 @@ export default function Layout({ children, home }) {
             )}
         </header>
         <main>{children}</main>
-        {!home && (
+        {page !== 'home' && page !== 'individualVis' && page !== 'individualProj' && (
           <div className={styles.backToHome}>
             <Link href="/">
               <a>← Back to home</a>
             </Link>
           </div>
+        )}
+        {page === 'individualVis' && (
+          <div className={styles.backToHome}>
+          <Link href="/projects/visualizations">
+            <a>← Back to visualizations</a>
+          </Link>
+        </div>
+        )}
+        {page === 'individualProj' && (
+          <div className={styles.backToHome}>
+          <Link href="/overview">
+            <a>← Back to projects</a>
+          </Link>
+        </div>
         )}
     </div>
   )

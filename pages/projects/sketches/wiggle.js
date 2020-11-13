@@ -5,7 +5,7 @@ import utilStyles from '../../../styles/utils.module.css'
 
 export default function Wiggle() {
     return (
-        <Layout>
+        <Layout page='individualVis'>
             <Head>
                 <title>Bryce Parkman - Perlin Noise Blob</title>
             </Head>

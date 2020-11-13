@@ -5,7 +5,7 @@ import utilStyles from '../../../styles/utils.module.css'
 
 export default function Leaves() {
     return (
-        <Layout>
+        <Layout page='individualVis'>
             <Head>
                 <title>Bryce Parkman - Falling, Changing</title>
             </Head>
