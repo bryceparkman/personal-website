@@ -4,7 +4,7 @@ import Layout from '../../components/layout'
 
 export default function Mask() {
     return (
-        <Layout>
+        <Layout page='individualProj'>
             <Head>
                 <title>Bryce Parkman - MASKerAID</title>
             </Head>

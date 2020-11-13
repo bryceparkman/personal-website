@@ -6,7 +6,7 @@ import utilStyles from '../../../styles/utils.module.css'
 
 export default function Pi() {
     return (
-        <Layout>
+        <Layout page='individualVis'>
             <Head>
                 <title>Bryce Parkman - Pi Collisions</title>
             </Head>
