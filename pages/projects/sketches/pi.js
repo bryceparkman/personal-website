@@ -1,16 +1,17 @@
+
 import Warning from '../../../components/p5warning'
 import Head from 'next/head';
 import Layout from '../../../components/layout'
 import utilStyles from '../../../styles/utils.module.css'
 
-export default function Cat() {
+export default function Pi() {
     return (
         <Layout>
             <Head>
-                <title>Bryce Parkman - Image Tile Physics</title>
+                <title>Bryce Parkman - Pi Collisions</title>
             </Head>
             <div className={utilStyles.headingMd}>
-                <iframe src="https://editor.p5js.org/brycecparkman/embed/a1zLjaEwz" width={640} height={500} frameBorder={0}></iframe>
+                <iframe src="https://editor.p5js.org/brycecparkman/embed/BdTKeFnMQ" width={640} height={580} frameBorder={0}></iframe>
             </div>
             <Warning />
         </Layout>

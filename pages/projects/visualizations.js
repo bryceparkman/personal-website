@@ -107,7 +107,7 @@ export default function Visualizations() {
                     <Col lg={4}>
                         <Link href='sketches/pi'>
                             <Card style={{cursor: 'pointer', marginTop: '20px'}}>
-                                <Card.Img variant="top" src="/images/wiggle.png" />
+                                <Card.Img variant="top" src="/images/pi.png" />
                                 <Card.Body>
                                     <Card.Title>Pi Collisions</Card.Title>
                                     <Card.Text>
