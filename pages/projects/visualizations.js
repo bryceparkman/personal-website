@@ -90,13 +90,13 @@ export default function Visualizations() {
                         </Link>
                     </Col>
                     <Col lg={4}>
-                        <Link href='sketches/hue'>
+                        <Link href='sketches/cat'>
                         <Card style={{cursor: 'pointer', marginTop: '20px'}}>
-                            <Card.Img variant="top" src="/images/hue.png" />
+                            <Card.Img variant="top" src="/images/cat.png" />
                             <Card.Body>
-                                <Card.Title>I Love Hue Remake</Card.Title>
+                                <Card.Title>Image Tile Physics</Card.Title>
                                 <Card.Text>
-                                    Remake of the "I Love Hue" app with p5.js. Puzzle game that rearranges blocks of a gradient and tasks the user to put the gradient back into order. Features randomized tile and color gradient selection.
+                                    Splits an image into many tiles which interact with the user's mouse presses. Outward spiral and attraction modes are toggleable, and tiles return to original positions upon release.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
