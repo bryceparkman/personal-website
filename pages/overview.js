@@ -15,7 +15,6 @@ export default function Project() {
             <Head>
                 <title>Projects</title>
             </Head>
-            <Construction/>
             <Link href='/projects/nadine'>
                 <Card className={utilStyles.projectCard}>
                     <Container>
@@ -96,14 +95,14 @@ export default function Project() {
                     <Container>
                         <Row className={utilStyles.projectRow}>
                             <Col lg>
-                                <Image rounded src="/images/profile.jpeg" />
+                                <Image rounded src="/images/vis.png" />
                             </Col>
                             <Col lg>
                                 <h2>
                                     Visualizations
                             </h2>
                                 <div>
-                                    Lorem Ipsum
+                                    A collection of p5.js sketches that I have created over the years. Explores everything from natural patterns like leaves falling and birds flocking, to mathematical visualizations, to small physics based games. All sketches are interactable on the browser and many have options to allow the viewer control over the artwork. I believe this allows the user to create their own meaning and beauty out of these creations.
                                 </div>
                             </Col>
                         </Row>
