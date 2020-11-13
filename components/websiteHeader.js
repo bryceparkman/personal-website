@@ -15,7 +15,7 @@ export default function projectHeader(webLink, gitLink) {
                             </span>
                         </a>
                         <p>
-                            Live Site
+                            Website
                         </p>                      
                     </Col>
                     <Col>

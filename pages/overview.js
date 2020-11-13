@@ -64,7 +64,7 @@ export default function Project() {
                     </div>
                 </Card>
             </Link>
-            <Link href='/projects/bridges'>
+            <Link href='/projects/mask'>
                 <Card className={utilStyles.projectCard}>
                     <Container>
                         <Row className={utilStyles.projectRow}>
