@@ -29,7 +29,7 @@ export default function Visualizations() {
                                 <Card.Body>
                                     <Card.Title>Falling, Changing</Card.Title>
                                     <Card.Text>
-                                        An interactive simulation of falling leaves with varying types of wind. Uses matter.js physics engine and adjustable inputs to inspire the user to create their own meaning and beauty out of the visuals.
+                                        An interactive simulation of falling leaves with varying types of wind. Uses matter.js physics engine and adjustable inputs to inspire the user to create their own meaning out of the visuals.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -90,13 +90,54 @@ export default function Visualizations() {
                         </Link>
                     </Col>
                     <Col lg={4}>
-                        <Link href='sketches/hue'>
+                        <Link href='sketches/cat'>
                         <Card style={{cursor: 'pointer', marginTop: '20px'}}>
-                            <Card.Img variant="top" src="/images/hue.png" />
+                            <Card.Img variant="top" src="/images/cat.png" />
                             <Card.Body>
-                                <Card.Title>I Love Hue Remake</Card.Title>
+                                <Card.Title>Image Tile Physics</Card.Title>
                                 <Card.Text>
-                                    Remake of the "I Love Hue" app with p5.js. Puzzle game that rearranges blocks of a gradient and tasks the user to put the gradient back into order. Features randomized tile and color gradient selection.
+                                    Splits an image into many tiles which interact with the user's mouse presses. Outward spiral and attraction modes are toggleable, and tiles return to original positions upon release.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        </Link>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={4}>
+                        <Link href='sketches/pi'>
+                            <Card style={{cursor: 'pointer', marginTop: '20px'}}>
+                                <Card.Img variant="top" src="/images/pi.png" />
+                                <Card.Body>
+                                    <Card.Title>Pi Collisions</Card.Title>
+                                    <Card.Text>
+                                        Pi calculator that counts the collisions of two boxes. Uses a simple physics engine based on elastic collision velocity equations. The digits of Pi are approximated.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Link>
+                    </Col>
+                    <Col lg={4}>
+                    <Link href='sketches/recaman'>
+                        <Card style={{cursor: 'pointer', marginTop: '20px'}}>
+                            <Card.Img variant="top" src="/images/recaman.png" />
+                            <Card.Body>
+                                <Card.Title>Recaman's Sequence</Card.Title>
+                                <Card.Text>
+                                    A visualization of Recaman's sequence. This sequence jumps forward by n at every step, unless it can jump backwards to a positive integer not in the sequence.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        </Link>
+                    </Col>
+                    <Col lg={4}>
+                        <Link href='sketches/circles'>
+                        <Card style={{cursor: 'pointer', marginTop: '20px'}}>
+                            <Card.Img variant="top" src="/images/cat.png" />
+                            <Card.Body>
+                                <Card.Title>Lissajous Curves</Card.Title>
+                                <Card.Text>
+                                    Python implementation of creating Lissajous curves using parametric functions. The circles on each axis represents the cosine and sine of the shape.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
