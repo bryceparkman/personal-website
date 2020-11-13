@@ -19,7 +19,6 @@ export default function Visualizations() {
             <div className={styles.navbar}>
             <Navigation />
           </div>
-            <Construction />
             <Container>
                 <Row>
                     <Col lg={4}>
@@ -125,19 +124,6 @@ export default function Visualizations() {
                                 <Card.Title>Recaman's Sequence</Card.Title>
                                 <Card.Text>
                                     A visualization of Recaman's sequence. This sequence jumps forward by n at every step, unless it can jump backwards to a positive integer not in the sequence.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        </Link>
-                    </Col>
-                    <Col lg={4}>
-                        <Link href='sketches/circles'>
-                        <Card style={{cursor: 'pointer', marginTop: '20px'}}>
-                            <Card.Img variant="top" src="/images/cat.png" />
-                            <Card.Body>
-                                <Card.Title>Lissajous Curves</Card.Title>
-                                <Card.Text>
-                                    Python implementation of creating Lissajous curves using parametric functions. The circles on each axis represents the cosine and sine of the shape.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
