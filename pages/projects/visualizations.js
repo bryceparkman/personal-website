@@ -105,13 +105,13 @@ export default function Visualizations() {
                 </Row>
                 <Row>
                     <Col lg={4}>
-                        <Link href='sketches/npixel'>
+                        <Link href='sketches/pi'>
                             <Card style={{cursor: 'pointer', marginTop: '20px'}}>
                                 <Card.Img variant="top" src="/images/wiggle.png" />
                                 <Card.Body>
-                                    <Card.Title>N-Pixel Cascading Gif</Card.Title>
+                                    <Card.Title>Pi Collisions</Card.Title>
                                     <Card.Text>
-                                        For each pixel in the image, it will look through n other unsearched pixels and swap with the pixel closest in color. Using CIELAB color space to better match human vision.
+                                        Pi calculator that counts the collisions of two boxes. Uses a simple physics engine based on elastic collision velocity equations. The digits of Pi are approximated.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
