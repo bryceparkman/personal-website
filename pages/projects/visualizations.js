@@ -120,7 +120,7 @@ export default function Visualizations() {
                     <Col lg={4}>
                     <Link href='sketches/recaman'>
                         <Card style={{cursor: 'pointer', marginTop: '20px'}}>
-                            <Card.Img variant="top" src="/images/flock.png" />
+                            <Card.Img variant="top" src="/images/recaman.png" />
                             <Card.Body>
                                 <Card.Title>Recaman's Sequence</Card.Title>
                                 <Card.Text>
