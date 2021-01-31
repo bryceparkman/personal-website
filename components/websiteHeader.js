@@ -10,8 +10,8 @@ export default function projectHeader(webLink, gitLink) {
                 <Row style={{textAlign: 'center'}}>
                     <Col>
                         <a href={webLink} target="_blank">
-                            <span className={utilStyles.contacts}>
-                                <i className="fas fa-globe fa-10x"></i>
+                            <span className={utilStyles.header}>
+                                <i className="fas fa-globe"></i>
                             </span>
                         </a>
                         <p>
@@ -20,8 +20,8 @@ export default function projectHeader(webLink, gitLink) {
                     </Col>
                     <Col>
                         <a href={gitLink} target="_blank">
-                            <span className={utilStyles.contacts}>
-                                <i className="fab fa-github fa-10x"></i>
+                            <span className={utilStyles.header}>
+                                <i className="fab fa-github"></i>
                             </span>
                         </a>
                         <p>

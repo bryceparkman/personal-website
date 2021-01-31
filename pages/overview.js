@@ -20,7 +20,7 @@ export default function Project() {
                     <Container>
                         <Row className={utilStyles.projectRow}>
                             <Col lg>
-                                <Image rounded src="/images/nadine.png" />
+                                <Image rounded src="/images/nadine/nadineOverview.png" />
                             </Col>
                             <Col lg>
                                 <h2>
