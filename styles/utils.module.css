@@ -110,3 +110,8 @@
 .projectCard:active .overlayArrow {
   opacity: 1;
 }
+
+.header {
+  font-size: 100px;
+  color: #41273b;
+}
