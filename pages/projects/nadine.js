@@ -1,4 +1,3 @@
-import Construction from '../../components/construction'
 import Head from 'next/head';
 import Layout from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
@@ -17,7 +16,7 @@ export default function Nadine() {
             <section className={utilStyles.headingXl}>
                 <p>Nadine El Nesr Website</p>
             </section>
-            <a href='https://nadine-elnesr.web.app/' target='_blank'>
+            <a href='https://nadine-elnesr.web.app/' target='_blank' rel="noopener noreferrer">
                 <Card className={utilStyles.projectCard}>
                     <Container>
                         <Row className={utilStyles.projectRow}>
