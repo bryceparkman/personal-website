@@ -44,7 +44,7 @@ export default function Project() {
                     <Container>
                         <Row className={utilStyles.projectRow}>
                             <Col lg>
-                                <Image rounded src="/images/birdges/bridges.png" />
+                                <Image rounded src="/images/bridges/bridges.png" />
                             </Col>
                             <Col lg>
                                 <h2>
@@ -69,7 +69,7 @@ export default function Project() {
                     <Container>
                         <Row className={utilStyles.projectRow}>
                             <Col lg>
-                                <Image rounded src="/images/mask.png" />
+                                <Image rounded src="/images/mask/mask.png" />
                             </Col>
                             <Col lg>
                                 <h2>
