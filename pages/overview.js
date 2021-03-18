@@ -44,7 +44,7 @@ export default function Project() {
                     <Container>
                         <Row className={utilStyles.projectRow}>
                             <Col lg>
-                                <Image rounded src="/images/bridges.png" />
+                                <Image rounded src="/images/birdges/bridges.png" />
                             </Col>
                             <Col lg>
                                 <h2>
