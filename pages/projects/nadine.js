@@ -11,7 +11,7 @@ export default function Nadine() {
     return (
         <Layout page='individualProj'>
             <Head>
-                <title>Bryce Parkman - Nadine El Nesr</title>
+                <title>Bryce Parkman - Nadine El Nesr Website</title>
             </Head>
             <section className={utilStyles.headingXl}>
                 <p>Nadine El Nesr Website</p>
@@ -37,7 +37,7 @@ export default function Nadine() {
                     of the website's highlights.
                 </p>
             </section>
-            <Row style={{marginBottom: '30px'}}>
+            <Row style={{margin: '3vw 5vw'}}>
                 <Col>
                     <Image src='../../images/nadine/highlight1.png'/>
                 </Col>
@@ -45,7 +45,7 @@ export default function Nadine() {
                     <Image src='../../images/nadine/highlight2.jpg'/>
                 </Col>
             </Row>
-            <Row style={{marginBottom: '30px'}}>
+            <Row style={{marginBottom: '30px'}} style={{margin: '3vw 5vw'}}>
                 <Col>
                     <Image src='../../images/nadine/highlight3.png'/>
                 </Col>
@@ -53,7 +53,7 @@ export default function Nadine() {
                     <Image src='../../images/nadine/highlight4.png'/>
                 </Col>
             </Row>
-            <Row style={{marginBottom: '30px'}}>
+            <Row style={{marginBottom: '30px'}} style={{margin: '3vw 5vw'}}>
                 <Col>
                     <Image src='../../images/nadine/highlight5.jpg'/>
                 </Col>
@@ -61,7 +61,7 @@ export default function Nadine() {
                     <Image src='../../images/nadine/highlight7.jpg'/>
                 </Col>
             </Row>
-            <Row style={{marginBottom: '30px'}}>
+            <Row style={{marginBottom: '30px'}} style={{margin: '3vw 5vw'}}>
                 <Col>
                     <Image src='../../images/nadine/highlight6.png'/>
                 </Col>

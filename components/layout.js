@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import Navigation from './navigation'
 
@@ -25,32 +24,11 @@ export default function Layout({ children, page }) {
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
-        <div className={styles.navbar}>
-          <Navigation />
-        </div>
-        <header className={styles.header}>
-          {page === 'home' ? (
-            <>
-              <img
-                src="/images/profile.jpeg"
-                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                alt={name}
-              />
-              <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            </>
-          ) : (
-              <>
-              </>
-            )}
-        </header>
-        <main>{children}</main>
-        {page !== 'home' && page !== 'individualVis' && page !== 'individualProj' && (
-          <div className={styles.backToHome}>
-            <Link href="/">
-              <a>← Back to home</a>
-            </Link>
+        {page === 'home' && 
+          <div className={styles.navbar}>
+            <Navigation />
           </div>
-        )}
+        }
         {page === 'individualVis' && (
           <div className={styles.backToHome}>
           <Link href="/projects/visualizations">
@@ -60,11 +38,13 @@ export default function Layout({ children, page }) {
         )}
         {page === 'individualProj' && (
           <div className={styles.backToHome}>
-          <Link href="/overview">
-            <a>← Back to projects</a>
+          <Link href="/#portfolio">
+            <a>← Back to portfolio</a>
           </Link>
         </div>
         )}
+        <main>{children}</main>
+        
     </div>
   )
 }
