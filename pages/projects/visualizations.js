@@ -12,18 +12,20 @@ import Navigation from '../../components/navigation'
 
 export default function Visualizations() {
     return (
-        <div style={{padding: '1rem', margin: '0.5rem auto'}}>
+        <div>
             <Head>
                 <title>Bryce Parkman - Visualizations</title>
             </Head>
-            <div className={styles.navbar}>
-            <Navigation />
-          </div>
+            <div className={styles.backToHome}>
+                <Link href="/#portfolio">
+                    <a>← Back to portfolio</a>
+                </Link>
+            </div>
             <Container>
                 <Row>
                     <Col lg={4}>
                         <Link href='sketches/leaves'>
-                            <Card style={{cursor: 'pointer', marginTop: '20px'}}>
+                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
                                 <Card.Img variant="top" src="/images/leaves.png" />
                                 <Card.Body>
                                     <Card.Title>Falling, Changing</Card.Title>
@@ -36,35 +38,35 @@ export default function Visualizations() {
                     </Col>
                     <Col lg={4}>
                         <Link href='sketches/impacts'>
-                        <Card style={{cursor: 'pointer', marginTop: '20px'}}>
-                            <Card.Img variant="top" src="/images/impacts.png" />
-                            <Card.Body>
-                                <Card.Title>Impact Viewer</Card.Title>
-                                <Card.Text>
-                                    A visual interpretation of the JPL Sentry API, which tracks asteroids and their potential impact trajectories. For each asteroid the size, threat level, and potential impact date/energy is displayed.
+                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                                <Card.Img variant="top" src="/images/impacts.png" />
+                                <Card.Body>
+                                    <Card.Title>Impact Viewer</Card.Title>
+                                    <Card.Text>
+                                        A visual interpretation of the JPL Sentry API, which tracks asteroids and their potential impact trajectories. For each asteroid the size, threat level, and potential impact date/energy is displayed.
                                 </Card.Text>
-                            </Card.Body>
-                        </Card>
+                                </Card.Body>
+                            </Card>
                         </Link>
                     </Col>
                     <Col lg={4}>
                         <Link href='sketches/hue'>
-                        <Card style={{cursor: 'pointer', marginTop: '20px'}}>
-                            <Card.Img variant="top" src="/images/hue.png" />
-                            <Card.Body>
-                                <Card.Title>I Love Hue Remake</Card.Title>
-                                <Card.Text>
-                                    Remake of the "I Love Hue" app. Puzzle game that rearranges blocks of a gradient and tasks the user to put the gradient back into order. Randomized tile and color gradient selection.
+                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                                <Card.Img variant="top" src="/images/hue.png" />
+                                <Card.Body>
+                                    <Card.Title>I Love Hue Remake</Card.Title>
+                                    <Card.Text>
+                                        Remake of the "I Love Hue" app. Puzzle game that rearranges blocks of a gradient and tasks the user to put the gradient back into order. Randomized tile and color gradient selection.
                                 </Card.Text>
-                            </Card.Body>
-                        </Card>
+                                </Card.Body>
+                            </Card>
                         </Link>
                     </Col>
                 </Row>
                 <Row>
                     <Col lg={4}>
                         <Link href='sketches/wiggle'>
-                            <Card style={{cursor: 'pointer', marginTop: '20px'}}>
+                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
                                 <Card.Img variant="top" src="/images/wiggle.png" />
                                 <Card.Body>
                                     <Card.Title>Perlin Noise Blob</Card.Title>
@@ -76,36 +78,36 @@ export default function Visualizations() {
                         </Link>
                     </Col>
                     <Col lg={4}>
-                    <Link href='sketches/flock'>
-                        <Card style={{cursor: 'pointer', marginTop: '20px'}}>
-                            <Card.Img variant="top" src="/images/flock.png" />
-                            <Card.Body>
-                                <Card.Title>Flocking Simulation</Card.Title>
-                                <Card.Text>
-                                    A flocking simulation based on Craig Reynolds "Boids" engine. On top of this engine, each bird has a true to life field of view. Users can also interact with the birds themselves.
+                        <Link href='sketches/flock'>
+                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                                <Card.Img variant="top" src="/images/flock.png" />
+                                <Card.Body>
+                                    <Card.Title>Flocking Simulation</Card.Title>
+                                    <Card.Text>
+                                        A flocking simulation based on Craig Reynolds "Boids" engine. On top of this engine, each bird has a true to life field of view. Users can also interact with the birds themselves.
                                 </Card.Text>
-                            </Card.Body>
-                        </Card>
+                                </Card.Body>
+                            </Card>
                         </Link>
                     </Col>
                     <Col lg={4}>
                         <Link href='sketches/cat'>
-                        <Card style={{cursor: 'pointer', marginTop: '20px'}}>
-                            <Card.Img variant="top" src="/images/cat.png" />
-                            <Card.Body>
-                                <Card.Title>Image Tile Physics</Card.Title>
-                                <Card.Text>
-                                    Splits an image into many tiles which interact with the user's mouse presses. Outward spiral and attraction modes are toggleable, and tiles return to original positions upon release.
+                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                                <Card.Img variant="top" src="/images/cat.png" />
+                                <Card.Body>
+                                    <Card.Title>Image Tile Physics</Card.Title>
+                                    <Card.Text>
+                                        Splits an image into many tiles which interact with the user's mouse presses. Outward spiral and attraction modes are toggleable, and tiles return to original positions upon release.
                                 </Card.Text>
-                            </Card.Body>
-                        </Card>
+                                </Card.Body>
+                            </Card>
                         </Link>
                     </Col>
                 </Row>
                 <Row>
                     <Col lg={4}>
                         <Link href='sketches/pi'>
-                            <Card style={{cursor: 'pointer', marginTop: '20px'}}>
+                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
                                 <Card.Img variant="top" src="/images/pi.png" />
                                 <Card.Body>
                                     <Card.Title>Pi Collisions</Card.Title>
@@ -117,16 +119,16 @@ export default function Visualizations() {
                         </Link>
                     </Col>
                     <Col lg={4}>
-                    <Link href='sketches/recaman'>
-                        <Card style={{cursor: 'pointer', marginTop: '20px'}}>
-                            <Card.Img variant="top" src="/images/recaman.png" />
-                            <Card.Body>
-                                <Card.Title>Recaman's Sequence</Card.Title>
-                                <Card.Text>
-                                    A visualization of Recaman's sequence. This sequence jumps forward by n at every step, unless it can jump backwards to a positive integer not in the sequence.
+                        <Link href='sketches/recaman'>
+                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                                <Card.Img variant="top" src="/images/recaman.png" />
+                                <Card.Body>
+                                    <Card.Title>Recaman's Sequence</Card.Title>
+                                    <Card.Text>
+                                        A visualization of Recaman's sequence. This sequence jumps forward by n at every step, unless it can jump backwards to a positive integer not in the sequence.
                                 </Card.Text>
-                            </Card.Body>
-                        </Card>
+                                </Card.Body>
+                            </Card>
                         </Link>
                     </Col>
                 </Row>

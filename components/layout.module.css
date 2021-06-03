@@ -1,13 +1,56 @@
 .container {
-  max-width: 46rem;
-  padding: 1rem;
-  margin: 0.5rem auto;
+  padding-bottom: 30px;
 }
 
 .header {
+  padding-top: 9rem;
+  max-width: none;
+}
+
+.headerSide {
+  background-color: rgba(59, 97, 134, 1);
+  border-radius: 50px 0 0 50px;
+  height: 30vw;
+  color: white;
+  font-family: 'Palanquin', sans-serif;
+}
+
+.headerRight {
+  border-radius: 50px 0 0 50px;
+  padding: 9vw 0 0 4vw;
+}
+
+.headerLeft {
+  border-radius: 0 50px 50px 0;
+  padding: 2vw 2vw 0 4vw;
+}
+
+.headerButton {
+  font-family: 'Palanquin', sans-serif;
+  font-size: 1.5vw;
+  border: 2px solid #FF9900;
+  color: #FF9900;
+  width: 10vw;
+  margin-top: 2vw;
+  margin-left: 4vw;
+  padding: 5px;
+  text-align: center;
+}
+
+.headerButton:hover {
+  cursor: pointer;
+}
+
+.contactBar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: rgba(59, 97, 134, 1);
+  position: relative;
+  padding: 5px 0;
+  width: 23vw;
+  top: -30px;
+  left: 13.5vw;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .headerImage {
@@ -16,18 +59,31 @@
 }
 
 .headerHomeImage {
-  width: 15rem;
-  height: 15rem;
+  margin-left: 10vw;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50px;
+  box-shadow: 
+    -2vw -2vw 0 rgba(104, 127, 150, 1),
+    -4vw -4vw 0 rgba(200, 211, 221, 1);
 }
 
 .backToHome {
-  margin: 3rem 0 0;
+  margin: 2vw 0 0 5vw;
+}
+
+.portfolioHeader {
+  font-size: 5vw;
+  text-align: center;
+  margin: 4vw 0;
 }
 
 .navbar {
-  max-width: 37rem;
-  font-family: 'Arimo', sans-serif;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+  font-family: 'Palanquin', sans-serif;
   color: 'black';
   font-size: x-large;
-  margin: auto;
 }

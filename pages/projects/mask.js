@@ -33,17 +33,17 @@ export default function Mask() {
                     MASKerAID is a device that attaches to a mask that enables temperature, moisture, and air quality tracking. 
                     It uses this information to determine when the user should wash their mask or replace the filter, and 
                     communicates this via Bluetooth to a companion app. This project was made during the John Hopkins 2020 MedHack,
-                    and our small team of 4 ended up placing 3rd in the pandemic track. Clicking the image above will take yo to the 
+                    and our small team of 4 ended up placing 3rd in the pandemic track. Clicking the image above will take you to the 
                     GitHub page, and below are some highlights from the 72 hour stretch we had to create our vision.
                 </p>
             </section>
-            <Row style={{marginBottom: '30px'}}>
+            <Row style={{marginBottom: '30px'}} style={{margin: '3vw 5vw'}}>
                 <Col>
                     <Image src='../../images/mask/highlight2.png'/>
                 </Col>
                 
             </Row>
-            <Row style={{marginBottom: '30px'}}>
+            <Row style={{marginBottom: '30px'}} style={{margin: '3vw 5vw'}}>
                 <Col>
                     <Image src='../../images/mask/highlight3.png'/>
                 </Col>
@@ -51,7 +51,7 @@ export default function Mask() {
                     <Image src='../../images/mask/highlight4.png'/>
                 </Col>
             </Row>
-            <Row style={{marginBottom: '30px'}}>
+            <Row style={{marginBottom: '30px'}} style={{margin: '3vw 5vw'}}>
                 <Col>
                     <Image src='../../images/mask/highlight1.png'/>
                 </Col>

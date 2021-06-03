@@ -1,20 +1,15 @@
-import Head from 'next/head';
+
 import Link from 'next/link'
-import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
-import Construction from '../components/construction'
 
-export default function Project() {
+export default function ProjectOverview() {
     return (
-        <Layout>
-            <Head>
-                <title>Projects</title>
-            </Head>
+        <>
             <Link href='/projects/nadine'>
                 <Card className={utilStyles.projectCard}>
                     <Container>
@@ -112,6 +107,6 @@ export default function Project() {
                     </div>
                 </Card>
             </Link>
-        </Layout>
+            </>
     )
 }
