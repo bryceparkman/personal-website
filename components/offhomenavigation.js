@@ -10,20 +10,20 @@ export default function OffHomeNavigation() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav>
-                    <Link href="/#top">
+                    <Link href="/#topAnchor">
                         <div style={{ cursor: 'pointer' }}>
                             Home
                         </div>
                     </Link>
                 </Nav>
                 <Nav className="ml-auto">
-                    <Link href="/#about">
+                    <Link href="/#aboutAnchor">
                         <div style={{ cursor: 'pointer' }}>
                             About Me
                          </div>
                     </Link>
                     <div style={{width: 20}}></div>
-                    <Link href="/#portfolio">
+                    <Link href="/#portfolioAnchor">
                         <div style={{ cursor: 'pointer' }}>
                             Portfolio
                         </div>

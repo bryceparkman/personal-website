@@ -79,6 +79,12 @@
     4vw -4vw 0 rgba(200, 211, 221, 1);
 }
 
+.anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+
 .backToHome {
   margin: 2vw 0 0 5vw;
 }
