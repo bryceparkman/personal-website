@@ -68,6 +68,17 @@
     -4vw -4vw 0 rgba(200, 211, 221, 1);
 }
 
+.headerHomeImage2 {
+  margin-top: 2vw;
+  margin-left: 10vw;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50px;
+  box-shadow: 
+    2vw -2vw 0 rgba(104, 127, 150, 1),
+    4vw -4vw 0 rgba(200, 211, 221, 1);
+}
+
 .backToHome {
   margin: 2vw 0 0 5vw;
 }
@@ -75,7 +86,14 @@
 .portfolioHeader {
   font-size: 5vw;
   text-align: center;
-  margin: 4vw 0;
+  font-family: 'Palanquin', sans-serif;
+}
+
+.languageHeader {
+  margin-top: 3vw;
+  font-size: 3vw;
+  text-align: center;
+  font-family: 'Palanquin', sans-serif;
 }
 
 .navbar {
@@ -84,6 +102,6 @@
   z-index: 1;
   width: 100%;
   font-family: 'Palanquin', sans-serif;
-  color: 'black';
+  color: black;
   font-size: x-large;
 }

@@ -58,15 +58,24 @@ export default function Home() {
           <Col sm={6} style={{ paddingLeft: 0 }}>
             <div className={`${layoutStyles.headerLeft} ${layoutStyles.headerSide}`}>
               <h1 style={{ fontSize: '5vw' }}>About Me</h1>
-              <div style={{ fontSize: '1.5vw', marginTop: '2vw'}}>
+              <div style={{ fontSize: '1.45vw', marginTop: '2vw'}}>
                 Welcome to my website! I am an undergraduate Computer Science and Computational Mathematics student at the University of Massachusetts Amherst. 
                 I am interested in all things robotics and the intersection of computer science and math. Experienced in full stack web development, app development, 
-                and mathematical visualization. Always creating.
+                arduino prototyping, and mathematical visualization. Always creating. I also love to go rock climbing, biking, hiking, and running and will take any oppurtunity to do so.
               </div>
             </div>
           </Col>
+          <Col>
+          <img
+              src="/images/climb.jpg"
+              className={layoutStyles.headerHomeImage2}
+              alt={'Bryce Parkman'}
+            />
+          </Col>
         </Row>
       </Container>
+      <h1 className={layoutStyles.languageHeader}>Top GitHub languages </h1>
+      <iframe width="100%" height="600" src="https://ionicabizau.github.io/github-profile-languages/api.html?bryceparkman" frameBorder="0"></iframe>
       <div id='portfolio'>
         <h1 className={layoutStyles.portfolioHeader}>Portfolio</h1>
         <ProjectOverview/>
