@@ -1,14 +1,11 @@
-import Construction from '../../components/construction'
 import Head from 'next/head';
 import Link from 'next/link'
-import Layout from '../../components/layout'
 import styles from '../../components/layout.module.css'
-import utilStyles from '../../styles/utils.module.css'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
-import Navigation from '../../components/navigation'
+import OffHomeNavigation from '../../components/offhomenavigation'
 
 export default function Visualizations() {
     return (
@@ -16,12 +13,10 @@ export default function Visualizations() {
             <Head>
                 <title>Bryce Parkman - Visualizations</title>
             </Head>
-            <div className={styles.backToHome}>
-                <Link href="/#portfolio">
-                    <a>← Back to portfolio</a>
-                </Link>
+            <div className={styles.navbar}>
+                <OffHomeNavigation />
             </div>
-            <Container>
+            <Container style={{paddingTop: '4rem'}}>
                 <Row>
                     <Col lg={4}>
                         <Link href='sketches/leaves'>

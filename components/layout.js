@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import Link from 'next/link'
 import Navigation from './navigation'
+import OffHomeNavigation from './offhomenavigation'
 
 const name = 'Bryce Parkman'
 export const siteTitle = 'Bryce Parkman'
@@ -29,17 +30,15 @@ export default function Layout({ children, page }) {
             <Navigation />
           </div>
         }
+        {page !== 'home' && page !== 'individualVis' && 
+          <div className={styles.navbar}>
+            <OffHomeNavigation />
+          </div>
+        }
         {page === 'individualVis' && (
           <div className={styles.backToHome}>
           <Link href="/projects/visualizations">
             <a>← Back to visualizations</a>
-          </Link>
-        </div>
-        )}
-        {page === 'individualProj' && (
-          <div className={styles.backToHome}>
-          <Link href="/#portfolio">
-            <a>← Back to portfolio</a>
           </Link>
         </div>
         )}
