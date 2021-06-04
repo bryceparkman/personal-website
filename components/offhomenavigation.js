@@ -1,31 +1,30 @@
 import { useRouter } from 'next/router'
-import utilStyles from '../styles/utils.module.css'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import { Link, animateScroll as scroll } from "react-scroll";
+import Link from 'next/link'
 
-export default function Navigation() {
+export default function OffHomeNavigation() {
     const router = useRouter();
     return (
         <Navbar bg="white" variant="light" expand="sm" style={{padding: '20px 2vw 20px 7vw'}}>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav>
-                    <Link to="top" spy={true} smooth={true} offset={-200} duration={500} activeClass={utilStyles.active} style={{ cursor: 'pointer' }}>
-                        <div>
+                    <Link href="/#topAnchor">
+                        <div style={{ cursor: 'pointer' }}>
                             Home
                         </div>
                     </Link>
                 </Nav>
                 <Nav className="ml-auto">
-                    <Link to="about" spy={true} smooth={true} offset={-120} duration={500} activeClass={utilStyles.active} style={{ cursor: 'pointer' }}>
-                        <div>
+                    <Link href="/#aboutAnchor">
+                        <div style={{ cursor: 'pointer' }}>
                             About Me
                          </div>
                     </Link>
                     <div style={{width: 20}}></div>
-                    <Link to="portfolio" spy={true} smooth={true} offset={-70} duration={500} activeClass={utilStyles.active} style={{ cursor: 'pointer' }}>
-                        <div >
+                    <Link href="/#portfolioAnchor">
+                        <div style={{ cursor: 'pointer' }}>
                             Portfolio
                         </div>
                     </Link>
