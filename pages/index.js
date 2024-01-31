@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <Container className={layoutStyles.header}>
+      <Container>
         <a className={layoutStyles.anchor} style={{ top: -200 }} id="topAnchor" />
         <Row id='top'>
           <Col sm={6}>
