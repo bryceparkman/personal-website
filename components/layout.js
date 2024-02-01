@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styles from './layout.module.css'
 import Link from 'next/link'
-import { Container, Row, Col } from 'react-bootstrap'
 import Navigation from './navigation'
 import OffHomeNavigation from './offhomenavigation'
 
@@ -26,13 +25,13 @@ export default function Layout({ children, page }) {
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
-        {/* {page === 'home' && 
-          <div id={styles['sidebar-wrapper']}>
+        {page === 'home' && 
+          <div>
             <Navigation />
           </div>
         }
         {page !== 'home' && page !== 'individualVis' && 
-          <div className={styles.backToHome}>
+          <div className={styles.navbar}>
             <OffHomeNavigation />
           </div>
         }
@@ -42,17 +41,9 @@ export default function Layout({ children, page }) {
             <a>← Back to visualizations</a>
           </Link>
         </div>
-        )}*/}
-      <Container fluid>
-        <Row>
-          <Col xs={2} id="sidebar-wrapper">
-            <Navigation />
-          </Col>
-          <Col xs={10} id="page-content-wrapper">
-            <main>{children}</main>
-          </Col>
-        </Row>
-      </Container>
+        )}
+        <main>{children}</main>
+        
     </div>
   )
 }

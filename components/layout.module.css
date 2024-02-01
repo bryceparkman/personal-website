@@ -43,12 +43,12 @@
 
 .contactBar {
   display: flex;
-  background-color: rgba(59, 97, 134, 1);
+  background-color: rgb(25, 50, 75);
   position: relative;
+  margin-left: 13.5vw;
   padding: 5px 0;
   width: 23vw;
-  top: -30px;
-  left: 13.5vw;
+  top: -25px;
   justify-content: center;
   border-radius: 10px;
 }
@@ -62,10 +62,6 @@
   margin-left: 10vw;
   width: 30vw;
   height: 30vw;
-  border-radius: 50px;
-  box-shadow: 
-    -2vw -2vw 0 rgba(104, 127, 150, 1),
-    -4vw -4vw 0 rgba(200, 211, 221, 1);
 }
 
 .headerHomeImage2 {
@@ -102,38 +98,31 @@
   font-family: 'Palanquin', sans-serif;
 }
 
-.sidebar {
+.navbar {
   position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  min-height: 100vh !important;
-  z-index: 100;
-  padding-top: 30px;
-  padding-left: 20px;
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
-}
-
-.sidebarElement {
-  padding-top: 10px;
-  padding-right: 50px;
-}
-
-#sidebar-wrapper{
-  min-height: 100vh !important;
-  width: 100vw;
-  margin-left: -1rem;
-  -webkit-transition: margin .25s ease-out;
-  -moz-transition: margin .25s ease-out;
-  -o-transition: margin .25s ease-out;
-  transition: margin .25s ease-out;
-}
-#sidebar-wrapper .sidebar-heading {
-  padding: 0.875rem 1.25rem;
-  font-size: 1.2rem;
-}
-
-#page-content-wrapper {
-  min-width: 0;
+  overflow: hidden;
+  z-index: 1;
   width: 100%;
+  font-family: 'Palanquin', sans-serif;
+  color: black;
+  font-size: x-large;
+  background-color: rgb(25, 50, 75);
+}
+.navbarElement {
+  margin: 0 1vw;
+  color: white;
+  cursor: pointer;
+}
+
+.navbarElement:hover:not(.navbarActive) {
+  color: #FF9900;
+  text-decoration: none !important;
+}
+
+.navbarActive, .navbarActive:hover {
+  text-decoration: underline;
+  text-underline-offset: 50%;
+  text-decoration-thickness: 5px;
+  display: inline;
+  color: #FF9900 !important;
 }
