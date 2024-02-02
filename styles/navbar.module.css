@@ -1,0 +1,29 @@
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    font-family: 'Palanquin', sans-serif;
+    color: black;
+    font-size: x-large;
+    background-color: rgb(25, 50, 75);
+  }
+  .navbarElement {
+    margin: 0 1vw;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbarElement:hover:not(.navbarActive) {
+    color: #FF9900;
+    text-decoration: none !important;
+  }
+  
+  .navbarActive, .navbarActive:hover {
+    text-decoration: underline;
+    text-underline-offset: 50%;
+    text-decoration-thickness: 5px;
+    display: inline;
+    color: #FF9900 !important;
+  }
+  

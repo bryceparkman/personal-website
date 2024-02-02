@@ -1,0 +1,48 @@
+.container {
+  padding-bottom: 30px;
+}
+
+.headerSide {
+  background-color: rgba(59, 97, 134, 1);
+  border-radius: 50px 0 0 50px;
+  height: 30vw;
+  color: white;
+  font-family: 'Palanquin', sans-serif;
+}
+
+.headerRight {
+  border-radius: 50px 0 0 50px;
+  padding: 9vw 0 0 4vw;
+}
+
+.headerLeft {
+  border-radius: 0 50px 50px 0;
+  padding: 2vw 2vw 0 4vw;
+}
+
+.headerButton {
+  font-family: 'Palanquin', sans-serif;
+  font-size: 1.5vw;
+  border: 2px solid #FF9900;
+  color: #FF9900;
+  width: 10vw;
+  margin-top: 2vw;
+  margin-left: 4vw;
+  padding: 5px;
+  text-align: center;
+}
+
+.headerButton:hover {
+  cursor: pointer;
+}
+
+.backToHome {
+  margin: 2vw 0 0 5vw;
+}
+
+.languageHeader {
+  margin-top: 3vw;
+  font-size: 3vw;
+  text-align: center;
+  font-family: 'Palanquin', sans-serif;
+}

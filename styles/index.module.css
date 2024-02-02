@@ -1,0 +1,44 @@
+.header {
+    padding-top: 20vh;
+    max-width: none;
+}
+
+.nameHeader {
+    font-size: 4em;
+    font-family: 'Palanquin', sans-serif;
+}
+
+.headerHeadshot {
+    width: 25vw;
+    height: 25vw;
+}
+
+.contactBar {
+    display: flex;
+    background-color: rgb(25, 50, 75);
+    position: relative;
+    margin-left: 3vw;
+    padding: 5px 0;
+    width: 20vw;
+    top: -25px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.contacts {
+    color: white;
+    padding: 0 2vw;
+    font-size: 2em;
+}
+
+.portfolioHeader {
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'Palanquin', sans-serif;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+}

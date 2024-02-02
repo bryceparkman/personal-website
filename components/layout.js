@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from './layout.module.css'
+import styles from '../styles/layout.module.css'
 import Link from 'next/link'
 import Navigation from './navigation'
 import OffHomeNavigation from './offhomenavigation'

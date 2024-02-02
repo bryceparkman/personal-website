@@ -85,28 +85,6 @@ export default function ProjectOverview() {
                     </div>
                 </Card>
             </Link>
-            <Link href='/projects/visualizations'>
-                <Card className={utilStyles.projectCard}>
-                    <Container>
-                        <Row className={utilStyles.projectRow}>
-                            <Col lg>
-                                <Image rounded src="/images/vis.png" />
-                            </Col>
-                            <Col lg>
-                                <h2>
-                                    Visualizations
-                            </h2>
-                                <div>
-                                    A collection of p5.js sketches that I have created over the years. Explores everything from natural patterns like leaves falling and birds flocking, to mathematical visualizations, to small physics based games. All sketches are interactable on the browser and many have options to allow the viewer control over the artwork. I believe this allows the user to create their own meaning and beauty out of these creations.
-                                </div>
-                            </Col>
-                        </Row>
-                    </Container>
-                    <div className={utilStyles.overlayArrow}>
-                        <i className='fa fa-arrow-right fa-3x'></i>
-                    </div>
-                </Card>
-            </Link>
             </>
     )
 }
