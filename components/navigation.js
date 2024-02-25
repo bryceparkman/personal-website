@@ -2,13 +2,13 @@ import styles from '../styles/navbar.module.css'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { Link  } from "react-scroll";
-import { useLayoutEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export default function Navigation() {
     const navbarRef = useRef();
     const [navHeight, recordHeight] = useState(0) //Used to offset link scrolling to account for the navbar height obscuring the container
 
-    useLayoutEffect(() => {
+    useEffect(() => {
         if (navbarRef.current){
             recordHeight(navbarRef.current.offsetHeight)
         }

@@ -4,7 +4,6 @@ import Link from 'next/link'
 import Navigation from './navigation'
 import OffHomeNavigation from './offhomenavigation'
 
-const name = 'Bryce Parkman'
 export const siteTitle = 'Bryce Parkman'
 
 export default function Layout({ children, page }) {
@@ -15,8 +14,10 @@ export default function Layout({ children, page }) {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content=" Welcome to my website! I am a Computer Science and Mathematics major at the University of Massachusetts Amherst.
-            I am interested in all things robotics and the intersection of computer science and math."
+            content=" Welcome to my website! I am a software developer based in Boston, MA. I graduated with a degree in Computer Science and Mathematics 
+            from the University of Massachusetts Amherst. During this time I was a tech lead at BUILD UMass, a pro-bono tech consulting organization run 
+            by UMass Amherst students. I am interested in all things robotics and the intersection of computer science and math. Experienced in full stack 
+            web development, app development, and mathematical visualization."
           />
           <meta
             property="og:image"
@@ -43,7 +44,6 @@ export default function Layout({ children, page }) {
         </div>
         )}
         <main>{children}</main>
-        
     </div>
   )
 }
