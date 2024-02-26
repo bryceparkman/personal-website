@@ -7,6 +7,7 @@
     color: black;
     font-size: x-large;
     background-color: rgb(25, 50, 75);
+    z-index: 2;
   }
   .navbarElement {
     margin: 0 1vw;
