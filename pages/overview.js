@@ -10,8 +10,9 @@ import Container from 'react-bootstrap/Container'
 export default function ProjectOverview() {
     return (
         <>
-            <Link href='/projects/nadine'>
-                <Card className={utilStyles.projectCard}>
+
+            <Card className={utilStyles.projectCard}>
+                <Link href='/projects/nadine'>
                     <Container>
                         <Row className={utilStyles.projectRow}>
                             <Col lg>
@@ -29,13 +30,15 @@ export default function ProjectOverview() {
                             </Col>
                         </Row>
                     </Container>
-                    <div className={utilStyles.overlayArrow}>
-                        <i className='fa fa-arrow-right fa-3x'></i>
-                    </div>
-                </Card>
-            </Link>
-            <Link href='/projects/bridges'>
-                <Card className={utilStyles.projectCard}>
+                </Link>
+                <div className={utilStyles.overlayArrow}>
+                    <i className='fa fa-arrow-right fa-3x'></i>
+                </div>
+            </Card>
+
+
+            <Card className={utilStyles.projectCard}>
+                <Link href='/projects/bridges'>
                     <Container>
                         <Row className={utilStyles.projectRow}>
                             <Col lg>
@@ -44,23 +47,25 @@ export default function ProjectOverview() {
                             <Col lg>
                                 <h2>
                                     Student Bridges
-                            </h2>
+                                </h2>
                                 <div>
                                     Collaborated in a six-person team to develop a website for the UMass Amherst organization Student Bridges,
                                     which provides easier college access for underrepresented students. The website allows these students to
                                     access Student Bridges contact information, calendars, and workshop details much easier than before and will
                                     hopefully give this organizaiton more outreach. We built this website with Bootstrap, Express, NodeJS, and Firebase.
-                            </div>
+                                </div>
                             </Col>
                         </Row>
                     </Container>
-                    <div className={utilStyles.overlayArrow}>
-                        <i className='fa fa-arrow-right fa-3x'></i>
-                    </div>
-                </Card>
-            </Link>
-            <Link href='/projects/mask'>
-                <Card className={utilStyles.projectCard}>
+                </Link>
+                <div className={utilStyles.overlayArrow}>
+                    <i className='fa fa-arrow-right fa-3x'></i>
+                </div>
+            </Card>
+
+
+            <Card className={utilStyles.projectCard}>
+                <Link href='/projects/mask'>
                     <Container>
                         <Row className={utilStyles.projectRow}>
                             <Col lg>
@@ -69,7 +74,7 @@ export default function ProjectOverview() {
                             <Col lg>
                                 <h2>
                                     MASKerAID
-                            </h2>
+                                </h2>
                                 <div>
                                     In the MedHack 2020 hackathon, I collaborated with 3 other students to develop MASKerAID.
                                     This device would communicate with your phone and display the temperature
@@ -80,11 +85,12 @@ export default function ProjectOverview() {
                             </Col>
                         </Row>
                     </Container>
-                    <div className={utilStyles.overlayArrow}>
-                        <i className='fa fa-arrow-right fa-3x'></i>
-                    </div>
-                </Card>
-            </Link>
-            </>
+                </Link>
+                <div className={utilStyles.overlayArrow}>
+                    <i className='fa fa-arrow-right fa-3x'></i>
+                </div>
+            </Card>
+
+        </>
     )
 }

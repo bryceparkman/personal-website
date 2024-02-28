@@ -1,6 +1,6 @@
 #indexPage {
     color: white;
-    background-color: #051517;
+    background-image: linear-gradient(90deg, #088856, #c44fb1);
 }
 
 .header {
@@ -20,13 +20,6 @@
     height: 25vw;
 }
 
-#tsParticles {
-    height: 100vh;
-    position: fixed;
-    z-index: 0;
-    width: 100%;
-}
-
 .contactBar {
     display: flex;
     background-color: rgb(25, 50, 75);
@@ -43,6 +36,10 @@
     color: white;
     padding: 0 2vw;
     font-size: 2em;
+}
+
+.contacts:hover {
+    color: #F4A259;
 }
 
 .portfolioHeader {

@@ -16,7 +16,7 @@
   }
   
   .navbarElement:hover:not(.navbarActive) {
-    color: #FF9900;
+    color: #F4A259;
     text-decoration: none !important;
   }
   
@@ -25,6 +25,6 @@
     text-underline-offset: 50%;
     text-decoration-thickness: 5px;
     display: inline;
-    color: #FF9900 !important;
+    color: #F4A259 !important;
   }
   

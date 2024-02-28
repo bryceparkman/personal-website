@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link'
-import styles from '../../components/layout.module.css'
+import styles from '../../styles/layout.module.css'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
@@ -16,7 +16,7 @@ export default function Visualizations() {
             <div className={styles.navbar}>
                 <OffHomeNavigation />
             </div>
-            <Container style={{paddingTop: '4rem'}}>
+            <Container style={{ paddingTop: '4rem' }}>
                 <Row>
                     <Col lg={4}>
                         <Link href='sketches/leaves'>
@@ -39,7 +39,7 @@ export default function Visualizations() {
                                     <Card.Title>Impact Viewer</Card.Title>
                                     <Card.Text>
                                         A visual interpretation of the JPL Sentry API, which tracks asteroids and their potential impact trajectories. For each asteroid the size, threat level, and potential impact date/energy is displayed.
-                                </Card.Text>
+                                    </Card.Text>
                                 </Card.Body>
                             </Card>
                         </Link>
@@ -52,7 +52,7 @@ export default function Visualizations() {
                                     <Card.Title>I Love Hue Remake</Card.Title>
                                     <Card.Text>
                                         Remake of the "I Love Hue" app. Puzzle game that rearranges blocks of a gradient and tasks the user to put the gradient back into order. Randomized tile and color gradient selection.
-                                </Card.Text>
+                                    </Card.Text>
                                 </Card.Body>
                             </Card>
                         </Link>
@@ -80,7 +80,7 @@ export default function Visualizations() {
                                     <Card.Title>Flocking Simulation</Card.Title>
                                     <Card.Text>
                                         A flocking simulation based on Craig Reynolds "Boids" engine. On top of this engine, each bird has a true to life field of view. Users can also interact with the birds themselves.
-                                </Card.Text>
+                                    </Card.Text>
                                 </Card.Body>
                             </Card>
                         </Link>
@@ -93,7 +93,7 @@ export default function Visualizations() {
                                     <Card.Title>Image Tile Physics</Card.Title>
                                     <Card.Text>
                                         Splits an image into many tiles which interact with the user's mouse presses. Outward spiral and attraction modes are toggleable, and tiles return to original positions upon release.
-                                </Card.Text>
+                                    </Card.Text>
                                 </Card.Body>
                             </Card>
                         </Link>
@@ -121,7 +121,7 @@ export default function Visualizations() {
                                     <Card.Title>Recaman's Sequence</Card.Title>
                                     <Card.Text>
                                         A visualization of Recaman's sequence. This sequence jumps forward by n at every step, unless it can jump backwards to a positive integer not in the sequence.
-                                </Card.Text>
+                                    </Card.Text>
                                 </Card.Body>
                             </Card>
                         </Link>

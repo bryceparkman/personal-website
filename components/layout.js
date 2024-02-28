@@ -8,7 +8,7 @@ export const siteTitle = 'Bryce Parkman'
 
 export default function Layout({ children, page }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Arimo" rel="stylesheet"/>
           <link rel="icon" href="/favicon.ico" />
