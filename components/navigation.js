@@ -29,12 +29,12 @@ export default function Navigation() {
                             &nbsp;&nbsp;Projects&nbsp;&nbsp;
                          </div>
                     </Link>
-                    <Link to="resumeAnchor" spy={true} smooth={true} offset={-20} duration={500} activeClass={styles.navbarActive} className={styles.navbarElement}>
+                    {/* <Link to="resumeAnchor" spy={true} smooth={true} offset={-navHeight} duration={500} activeClass={styles.navbarActive} className={styles.navbarElement}>
                         <div>
                             &nbsp;&nbsp;Résumé&nbsp;&nbsp;
                         </div>
-                    </Link>
-                    <Link to="funAnchor" spy={true} smooth={true} offset={-20} duration={500} activeClass={styles.navbarActive} className={styles.navbarElement}>
+                    </Link> */}
+                    <Link to="funAnchor" spy={true} smooth={true} offset={-navHeight} duration={500} activeClass={styles.navbarActive} className={styles.navbarElement}>
                         <div>
                             &nbsp;&nbsp;Interactives&nbsp;&nbsp;
                         </div>

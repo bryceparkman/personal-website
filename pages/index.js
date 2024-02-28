@@ -98,10 +98,10 @@ export default function Home() {
           <h1 className={styles.portfolioHeader}>Projects</h1>
           <ProjectOverview />
         </div>
-        <div id='resumeAnchor'>
+        {/* <div id='resumeAnchor'>
 
-        </div>
-        <div id='funAnchor'>
+        </div> */}
+        <div id='funAnchor' style={{paddingTop: 30}}>
           <Card className={utilStyles.projectCard}>
             <Link href='/projects/visualizations'>
               <Container>
@@ -125,6 +125,7 @@ export default function Home() {
             </div>
           </Card>
         </div>
+        <div style={{height:30}}></div>
       </div>
     </Layout>
   )
