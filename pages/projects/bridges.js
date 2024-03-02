@@ -38,7 +38,7 @@ export default function Bridges() {
                     which you can learn more about <a href='https://buildumass.com/' target='_blank' rel="noopener noreferrer">here.</a>
                 </p>
             </section>
-            <Row style={{marginBottom: '30px'}} style={{margin: '3vw 5vw'}}>
+            <Row style={{marginBottom: '30px', margin: '3vw 5vw'}}>
                 <Col>
                     <Image src='../../images/bridges/highlight1.png'/>
                 </Col>
@@ -46,7 +46,7 @@ export default function Bridges() {
                     <Image src='../../images/bridges/highlight2.png'/>
                 </Col>
             </Row>
-            <Row style={{marginBottom: '30px'}} style={{margin: '3vw 5vw'}}>
+            <Row style={{marginBottom: '30px', margin: '3vw 5vw'}}>
                 <Col>
                     <Image src='../../images/bridges/highlight3.png'/>
                 </Col>
@@ -54,7 +54,7 @@ export default function Bridges() {
                     <Image src='../../images/bridges/highlight4.png'/>
                 </Col>
             </Row>
-            <Row style={{marginBottom: '30px'}} style={{margin: '3vw 5vw'}}>
+            <Row style={{marginBottom: '30px', margin: '3vw 5vw'}}>
                 <Col>
                     <Image src='../../images/bridges/highlight5.png'/>
                 </Col>

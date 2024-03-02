@@ -1,30 +1,45 @@
 .navbar {
-    position: fixed;
-    overflow: hidden;
-    z-index: 1;
-    width: 100%;
-    font-family: 'Palanquin', sans-serif;
-    color: black;
-    font-size: x-large;
-    background-color: rgb(25, 50, 75);
-    z-index: 2;
-  }
-  .navbarElement {
-    margin: 0 1vw;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .navbarElement:hover:not(.navbarActive) {
-    color: #F4A259;
-    text-decoration: none !important;
-  }
-  
-  .navbarActive, .navbarActive:hover {
-    text-decoration: underline;
-    text-underline-offset: 50%;
-    text-decoration-thickness: 5px;
-    display: inline;
-    color: #F4A259 !important;
-  }
-  
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+  font-family: 'Palanquin', sans-serif;
+  color: black;
+  font-size: x-large;
+  background-color: rgb(25, 50, 75);
+  z-index: 2;
+}
+
+.navbarElement {
+  margin: 0 1vw;
+  color: white;
+  cursor: pointer;
+}
+
+.navbarElement:hover:not(.navbarActive) {
+  color: #F4A259;
+  text-decoration: none !important;
+}
+
+.navbarActive,
+.navbarActive:hover {
+  text-decoration: underline;
+  text-underline-offset: 50%;
+  text-decoration-thickness: 5px;
+  display: inline;
+  color: #F4A259 !important;
+}
+
+.offNavbarElement {
+  margin: 0 1vw;
+  color: white;
+  cursor: pointer;
+}
+
+.offNavbarElement:hover {
+  text-decoration: underline;
+  text-underline-offset: 50%;
+  text-decoration-thickness: 5px;
+  display: inline;
+  color: #F4A259 !important;
+}

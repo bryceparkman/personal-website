@@ -1,21 +1,17 @@
 import Head from 'next/head';
 import Link from 'next/link'
-import styles from '../../styles/layout.module.css'
+import Layout from '../../components/layout'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
-import OffHomeNavigation from '../../components/offhomenavigation'
 
-export default function Visualizations() {
+export default function Interactives() {
     return (
-        <div>
+        <Layout page="interactives">
             <Head>
-                <title>Bryce Parkman - Visualizations</title>
+                <title>Bryce Parkman - Interactives</title>
             </Head>
-            <div className={styles.navbar}>
-                <OffHomeNavigation />
-            </div>
             <Container style={{ paddingTop: '4rem' }}>
                 <Row>
                     <Col lg={4}>
@@ -32,19 +28,6 @@ export default function Visualizations() {
                         </Link>
                     </Col>
                     <Col lg={4}>
-                        <Link href='sketches/impacts'>
-                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
-                                <Card.Img variant="top" src="/images/impacts.png" />
-                                <Card.Body>
-                                    <Card.Title>Impact Viewer</Card.Title>
-                                    <Card.Text>
-                                        A visual interpretation of the JPL Sentry API, which tracks asteroids and their potential impact trajectories. For each asteroid the size, threat level, and potential impact date/energy is displayed.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Link>
-                    </Col>
-                    <Col lg={4}>
                         <Link href='sketches/hue'>
                             <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
                                 <Card.Img variant="top" src="/images/hue.png" />
@@ -52,6 +35,19 @@ export default function Visualizations() {
                                     <Card.Title>I Love Hue Remake</Card.Title>
                                     <Card.Text>
                                         Remake of the "I Love Hue" app. Puzzle game that rearranges blocks of a gradient and tasks the user to put the gradient back into order. Randomized tile and color gradient selection.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Link>
+                    </Col>
+                    <Col lg={4}>
+                        <Link href='sketches/flock'>
+                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                                <Card.Img variant="top" src="/images/flock.png" />
+                                <Card.Body>
+                                    <Card.Title>Flocking Simulation</Card.Title>
+                                    <Card.Text>
+                                        A flocking simulation based on Craig Reynolds "Boids" engine. On top of this engine, each bird has a true to life field of view. Users can also interact with the birds themselves.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -73,19 +69,6 @@ export default function Visualizations() {
                         </Link>
                     </Col>
                     <Col lg={4}>
-                        <Link href='sketches/flock'>
-                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
-                                <Card.Img variant="top" src="/images/flock.png" />
-                                <Card.Body>
-                                    <Card.Title>Flocking Simulation</Card.Title>
-                                    <Card.Text>
-                                        A flocking simulation based on Craig Reynolds "Boids" engine. On top of this engine, each bird has a true to life field of view. Users can also interact with the birds themselves.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Link>
-                    </Col>
-                    <Col lg={4}>
                         <Link href='sketches/cat'>
                             <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
                                 <Card.Img variant="top" src="/images/cat.png" />
@@ -98,8 +81,6 @@ export default function Visualizations() {
                             </Card>
                         </Link>
                     </Col>
-                </Row>
-                <Row>
                     <Col lg={4}>
                         <Link href='sketches/pi'>
                             <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
@@ -113,6 +94,8 @@ export default function Visualizations() {
                             </Card>
                         </Link>
                     </Col>
+                </Row>
+                <Row>         
                     <Col lg={4}>
                         <Link href='sketches/recaman'>
                             <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
@@ -128,6 +111,6 @@ export default function Visualizations() {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </Layout>
     )
 }

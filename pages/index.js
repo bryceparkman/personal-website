@@ -25,7 +25,7 @@ export default function Home() {
     });
   }, []);
 
-  const options = useMemo(
+  const particleOptions = useMemo(
     () => ({
       "fullScreen": true,
       "background": { "image": "linear-gradient(90deg, #088856, #c44fb1)" },
@@ -34,7 +34,16 @@ export default function Home() {
         "shape": {
           "type": "square",
         },
-        "opacity": { "value": 0.1 },
+        "opacity": { 
+          "value": { "min": 0, "max": 0.1 },
+          "animation": {
+            "count": 1,
+            "enable": true,
+            "speed": 0.75,
+            "startValue": "min",
+            "sync": false
+          }
+        },
         "size": {"value": 10},
         "move": {
           "enable": true,
@@ -54,17 +63,17 @@ export default function Home() {
       </Head>
       <div id={styles.indexPage}>
         <Particles
-          options={options}
+          options={particleOptions}
         />
         <Container className={styles.header} id='topAnchor'>
           <Row>
             <Col sm={8} className="ml-auto mr-auto">
               <div>
                 <h1 className={styles.nameHeader}>Hi, I'm Bryce.</h1>
-                <div style={{ fontSize: '1.45vw', marginTop: '2vw' }}>
-                  Welcome to my website! I am an undergraduate Computer Science and Computational Mathematics student at the University of Massachusetts Amherst.
-                  I am interested in all things robotics and the intersection of computer science and math. Experienced in full stack web development, app development,
-                  arduino prototyping, and mathematical visualization. Always creating. I also love to go rock climbing, biking, hiking, and running and will take any oppurtunity to do so.
+                <div>
+                  I am a software developer experienced in full stack web development, app development, and mathematical visualization based in Boston, MA. I graduated with a degree 
+                  in Computer Science and Mathematics from the University of Massachusetts Amherst. During this time I was a tech lead at BUILD UMass, a pro-bono tech consulting 
+                  organization ran by students. Outside of my professional aspirations you can find me rock climbing, slacklining, hiking, and picking up a new hobby or skill.
                 </div>
               </div>
             </Col>
@@ -103,7 +112,7 @@ export default function Home() {
         </div> */}
         <div id='funAnchor' style={{paddingTop: 30}}>
           <Card className={utilStyles.projectCard}>
-            <Link href='/projects/visualizations'>
+            <Link href='/projects/interactives'>
               <Container>
                 <Row className={utilStyles.projectRow}>
                   <Col lg>
@@ -111,7 +120,7 @@ export default function Home() {
                   </Col>
                   <Col lg>
                     <h2>
-                      Visualizations
+                      Interactives
                     </h2>
                     <div>
                       A collection of p5.js sketches that I have created over the years. Explores everything from natural patterns like leaves falling and birds flocking, to mathematical visualizations, to small physics based games. All sketches are interactable on the browser and many have options to allow the viewer control over the artwork. I believe this allows the user to create their own meaning and beauty out of these creations.

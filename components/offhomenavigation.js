@@ -1,31 +1,17 @@
-import { useRouter } from 'next/router'
+import styles from '../styles/navbar.module.css'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Link from 'next/link'
 
-export default function OffHomeNavigation() {
-    const router = useRouter();
+export default function OffHomeNavigation({link, title}) {
     return (
-        <Navbar bg="white" variant="light" expand="sm" style={{padding: '20px 2vw 20px 7vw'}}>
+        <Navbar expand="sm" className={styles.navbar}>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav>
-                    <Link href="/#topAnchor">
-                        <div style={{ cursor: 'pointer' }}>
-                            Home
-                        </div>
-                    </Link>
-                </Nav>
-                <Nav className="ml-auto">
-                    <Link href="/#aboutAnchor">
-                        <div style={{ cursor: 'pointer' }}>
-                            About Me
-                         </div>
-                    </Link>
-                    <div style={{width: 20}}></div>
-                    <Link href="/#portfolioAnchor">
-                        <div style={{ cursor: 'pointer' }}>
-                            Portfolio
+                <Nav className='mr-auto'>
+                    <Link href={link} className={styles.offNavbarElement}>
+                        <div>
+                            &nbsp;&nbsp;{title}&nbsp;&nbsp;
                         </div>
                     </Link>
                 </Nav>
