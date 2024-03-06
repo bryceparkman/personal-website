@@ -9,7 +9,7 @@ export default function Cat() {
             <Head>
                 <title>Bryce Parkman - Image Tile Physics</title>
             </Head>
-            <div className={utilStyles.headingMd}>
+            <div className={utilStyles.headingMdPadding}>
                 <iframe src="https://editor.p5js.org/brycecparkman/embed/a1zLjaEwz" width={640} height={500} frameBorder={0}></iframe>
             </div>
             <Warning />

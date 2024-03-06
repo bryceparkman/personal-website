@@ -27,6 +27,13 @@
   text-align: center;
 }
 
+.headingMdPadding {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 10vh;
+}
+
 .borderCircle {
   border-radius: 50px;
 }

@@ -9,7 +9,7 @@ export default function Recaman() {
             <Head>
                 <title>Bryce Parkman - Recaman Sequence</title>
             </Head>
-            <div className={utilStyles.headingMd}>
+            <div className={utilStyles.headingMdPadding}>
                 <iframe src="https://editor.p5js.org/brycecparkman/embed/L2YG0FptR" width={640} height={640} frameBorder={0}></iframe>
             </div>
             <Warning />

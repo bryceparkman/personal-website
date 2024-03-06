@@ -10,7 +10,7 @@ export default function Pi() {
             <Head>
                 <title>Bryce Parkman - Pi Collisions</title>
             </Head>
-            <div className={utilStyles.headingMd}>
+            <div className={utilStyles.headingMdPadding}>
                 <iframe src="https://editor.p5js.org/brycecparkman/embed/BdTKeFnMQ" width={640} height={580} frameBorder={0}></iframe>
             </div>
             <Warning />

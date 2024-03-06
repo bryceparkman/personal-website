@@ -9,7 +9,7 @@ export default function Wiggle() {
             <Head>
                 <title>Bryce Parkman - Perlin Noise Blob</title>
             </Head>
-            <div className={utilStyles.headingMd}>
+            <div className={utilStyles.headingMdPadding}>
                 <iframe src="https://editor.p5js.org/brycecparkman/embed/VKK1mkHne" width={640} height={580} frameBorder={0}></iframe>
             </div>
             <Warning />

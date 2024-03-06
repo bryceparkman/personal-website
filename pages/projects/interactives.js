@@ -12,7 +12,7 @@ export default function Interactives() {
             <Head>
                 <title>Bryce Parkman - Interactives</title>
             </Head>
-            <Container style={{ paddingTop: '4rem' }}>
+            <Container style={{ paddingTop: '10vh' }}>
                 <Row>
                     <Col lg={4}>
                         <Link href='sketches/leaves'>

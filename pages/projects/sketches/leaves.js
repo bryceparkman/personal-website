@@ -9,7 +9,7 @@ export default function Leaves() {
             <Head>
                 <title>Bryce Parkman - Falling, Changing</title>
             </Head>
-            <div className={utilStyles.headingMd}>
+            <div className={utilStyles.headingMdPadding}>
                 <iframe src="https://editor.p5js.org/brycecparkman/embed/C5WPTqD4-" width={640} height={580} frameBorder={0}></iframe>
             </div>
             <Warning />
