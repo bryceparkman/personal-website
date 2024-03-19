@@ -10,9 +10,8 @@ import Container from 'react-bootstrap/Container'
 export default function ProjectOverview() {
     return (
         <>
-
             <Card className={utilStyles.projectCard}>
-                <Link href='/projects/nadine'>
+                <Link href='/projects/nadine' style={{ textDecoration: 'none' }}>
                     <Container>
                         <Row className={utilStyles.projectRow}>
                             <Col lg>
@@ -36,9 +35,8 @@ export default function ProjectOverview() {
                 </div>
             </Card>
 
-
             <Card className={utilStyles.projectCard}>
-                <Link href='/projects/bridges'>
+                <Link href='/projects/bridges' style={{ textDecoration: 'none' }}>
                     <Container>
                         <Row className={utilStyles.projectRow}>
                             <Col lg>
@@ -63,9 +61,8 @@ export default function ProjectOverview() {
                 </div>
             </Card>
 
-
             <Card className={utilStyles.projectCard}>
-                <Link href='/projects/mask'>
+                <Link href='/projects/mask' style={{ textDecoration: 'none' }}>
                     <Container>
                         <Row className={utilStyles.projectRow}>
                             <Col lg>
@@ -76,9 +73,9 @@ export default function ProjectOverview() {
                                     MASKerAID
                                 </h2>
                                 <div>
-                                    In the MedHack 2020 hackathon, I collaborated with 3 other students to develop MASKerAID.
+                                    In the Johns Hopkins MedHack 2020 hackathon, I collaborated with 3 other students to develop MASKerAID.
                                     This device would communicate with your phone and display the temperature
-                                    and humidity in the mask, and alert you if the filter needs to be replaced or if the air quality is poor.
+                                    and humidity in a mask, and alert you if the filter needs to be replaced or if the air quality is poor.
                                     Out of 700 teams competing we placed 3rd place in the pandemic hack category.
                                     The companion app was built with React Native, and the insert was prototyped with Arduino.
                                 </div>
