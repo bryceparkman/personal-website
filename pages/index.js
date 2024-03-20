@@ -1,14 +1,11 @@
 import Head from 'next/head';
-import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import styles from '../styles/index.module.css'
-import utilStyles from '../styles/utils.module.css'
 import ProjectOverview from './overview.js'
-import Image from 'react-bootstrap/Image'
-import Card from 'react-bootstrap/Card'
+import Interactives from './projects/interactives.js'
 
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
@@ -111,31 +108,11 @@ export default function Home() {
 
         </div> */}
         <div id='funAnchor' style={{paddingTop: 30}}>
-          <Card className={utilStyles.projectCard}>
-            <Link href='/projects/interactives'>
-              <Container>
-                <Row className={utilStyles.projectRow}>
-                  <Col lg>
-                    <Image rounded src="/images/vis.png" />
-                  </Col>
-                  <Col lg>
-                    <h2>
-                      Interactives
-                    </h2>
-                    <div>
-                      A collection of p5.js sketches that I have created over the years. Explores everything from natural patterns like leaves falling and birds flocking, to mathematical visualizations, to small physics based games. All sketches are interactable on the browser and many have options to allow the viewer control over the artwork. I believe this allows the user to create their own meaning and beauty out of these creations.
-                    </div>
-                  </Col>
-                </Row>
-              </Container>
-            </Link>
-            <div className={utilStyles.overlayArrow}>
-              <i className='fa fa-arrow-right fa-3x'></i>
-            </div>
-          </Card>
+          <h1 className={styles.portfolioHeader}>Interactives</h1>
+          <Interactives />
         </div>
-        <div style={{height:30}}></div>
       </div>
+      <div style={{height: 30}}/>
     </Layout>
   )
 }

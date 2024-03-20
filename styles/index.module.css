@@ -43,7 +43,9 @@
 }
 
 .portfolioHeader {
-    font-size: 5vw;
+    font-size: 3em;
+    position: relative;
+    z-index: 1;
     text-align: center;
     font-family: 'Palanquin', sans-serif;
 }

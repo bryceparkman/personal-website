@@ -36,7 +36,7 @@ export default function Layout({ children, page }) {
           </div>
         }
         {page === 'individualVis' && (
-          <OffHomeNavigation link="../../projects/interactives" title="← All interactives"/>
+          <OffHomeNavigation link="../../" title="← Home"/>
         )}
         <main>{children}</main>
     </div>

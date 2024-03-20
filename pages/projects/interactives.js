@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
+import styles from '../../styles/utils.module.css'
 
 export default function Interactives() {
     return (
@@ -12,11 +13,11 @@ export default function Interactives() {
             <Head>
                 <title>Bryce Parkman - Interactives</title>
             </Head>
-            <Container style={{ paddingTop: '10vh' }}>
+            <Container>
                 <Row>
                     <Col lg={4}>
-                        <Link href='sketches/leaves'>
-                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                        <Link href='./projects/sketches/leaves'>
+                            <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/leaves.png" />
                                 <Card.Body>
                                     <Card.Title>Falling, Changing</Card.Title>
@@ -29,7 +30,7 @@ export default function Interactives() {
                     </Col>
                     <Col lg={4}>
                         <Link href='sketches/hue'>
-                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                            <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/hue.png" />
                                 <Card.Body>
                                     <Card.Title>I Love Hue Remake</Card.Title>
@@ -42,12 +43,12 @@ export default function Interactives() {
                     </Col>
                     <Col lg={4}>
                         <Link href='sketches/flock'>
-                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                            <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/flock.png" />
                                 <Card.Body>
                                     <Card.Title>Flocking Simulation</Card.Title>
                                     <Card.Text>
-                                        A flocking simulation based on Craig Reynolds "Boids" engine. On top of this engine, each bird has a true to life field of view. Users can also interact with the birds themselves.
+                                        A flocking simulation based on Craig Reynolds "Boids" engine. On top of this engine, each bird has a true to life field of view resulting in some natural 'V' patterns. Users can also interact with the birds themselves.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -57,7 +58,7 @@ export default function Interactives() {
                 <Row>
                     <Col lg={4}>
                         <Link href='sketches/wiggle'>
-                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                            <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/wiggle.png" />
                                 <Card.Body>
                                     <Card.Title>Perlin Noise Blob</Card.Title>
@@ -70,7 +71,7 @@ export default function Interactives() {
                     </Col>
                     <Col lg={4}>
                         <Link href='sketches/cat'>
-                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                            <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/cat.png" />
                                 <Card.Body>
                                     <Card.Title>Image Tile Physics</Card.Title>
@@ -83,7 +84,7 @@ export default function Interactives() {
                     </Col>
                     <Col lg={4}>
                         <Link href='sketches/pi'>
-                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                            <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/pi.png" />
                                 <Card.Body>
                                     <Card.Title>Pi Collisions</Card.Title>
@@ -98,7 +99,7 @@ export default function Interactives() {
                 <Row>         
                     <Col lg={4}>
                         <Link href='sketches/recaman'>
-                            <Card style={{ cursor: 'pointer', marginTop: '20px' }}>
+                            <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/recaman.png" />
                                 <Card.Body>
                                     <Card.Title>Recaman's Sequence</Card.Title>

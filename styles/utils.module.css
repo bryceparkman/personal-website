@@ -6,12 +6,6 @@
   margin: 1rem 0;
 }
 
-#indexPage {
-  color: white;
-  background-image: linear-gradient(90deg, #088856, #c44fb1);
-  height: 100%;
-}
-
 .headingXl {
   text-align: center;
   font-size: 2rem;
@@ -75,6 +69,17 @@
 .projectCard {
   margin: 2vw 15vw;
   background-color: rgb(25, 50, 75);
+  font-family: 'Palanquin', sans-serif;
+}
+
+.interactivesCard {
+  cursor: 'pointer';
+  margin-top: 20px;
+  background-color: rgb(25, 50, 75);
+  color: white;
+}
+
+.individualProjectPage {
   font-family: 'Palanquin', sans-serif;
 }
 

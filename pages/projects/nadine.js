@@ -9,11 +9,11 @@ import Container from 'react-bootstrap/Container'
 
 export default function Nadine() {
     return (
-        <Layout page='individualProj'>
+        <Layout page='individualProject'>
             <Head>
                 <title>Bryce Parkman - Nadine El Nesr Website</title>
             </Head>
-            <div id={utilStyles.indexPage}>
+            <div className={utilStyles.individualProjectPage} id="a">
                 <section className={utilStyles.headingXl}>
                     <p>Nadine El Nesr Website</p>
                 </section>

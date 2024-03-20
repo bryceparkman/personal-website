@@ -11,9 +11,9 @@ export default function ProjectOverview() {
         <>
             <Card className={utilStyles.projectCard}>
                 <Link href='/projects/nadine' style={{ textDecoration: 'none' }}>
-                    <Container>
+                    <Container style={{margin: 0, width: 'inherit'}}>
                         <Row className={utilStyles.projectRow}>
-                            <Col lg>
+                            <Col lg={3}>
                                 <Image rounded src="/images/nadine/nadineOverview.png" />
                             </Col>
                             <Col lg>
@@ -36,9 +36,9 @@ export default function ProjectOverview() {
 
             <Card className={utilStyles.projectCard}>
                 <Link href='/projects/bridges' style={{ textDecoration: 'none' }}>
-                    <Container>
+                    <Container style={{margin: 0}}>
                         <Row className={utilStyles.projectRow}>
-                            <Col lg>
+                            <Col lg={3}>
                                 <Image rounded src="/images/bridges/bridges.png" />
                             </Col>
                             <Col lg>
@@ -62,9 +62,9 @@ export default function ProjectOverview() {
 
             <Card className={utilStyles.projectCard}>
                 <Link href='/projects/mask' style={{ textDecoration: 'none' }}>
-                    <Container>
+                    <Container style={{margin: 0}}>
                         <Row className={utilStyles.projectRow}>
-                            <Col lg>
+                            <Col lg={3}>
                                 <Image rounded src="/images/mask/mask.png" />
                             </Col>
                             <Col lg>
