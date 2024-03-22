@@ -18,13 +18,13 @@ export default function Bridges() {
 
                 <Container>
                     <Card className={utilStyles.projectCard}>
-                        <a href='https://studentbridgesagency.org/' target='_blank' rel="noopener noreferrer" className={utilStyles.projectRow} style={{ margin: 0 }}>
-                            <Image rounded src='../../images/bridges/bridgeHeader.png' />
+                        <a href='https://studentbridgesagency.org/' target='_blank' rel="noopener noreferrer">
+                            <Image rounded src='../../images/bridges/bridgeHeader.png'  className={utilStyles.projectRow} style={{ margin: 0 }}/>
+                            <div className={utilStyles.overlayArrow}>
+                                <i className='fas fa-globe fa-3x'></i>
+                            </div>
                         </a>
                     </Card>
-                    <div className={utilStyles.overlayArrow}>
-                        <i className='fas fa-globe fa-3x'></i>
-                    </div>
                 </Container>
 
                 <Container id="projectDescription" className="justify-content-md-center">

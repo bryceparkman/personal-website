@@ -18,12 +18,12 @@ export default function Nadine() {
 
                 <Container>
                     <Card className={utilStyles.projectCard}>
-                        <a href='https://nadine-elnesr.web.app/' target='_blank' rel="noopener noreferrer" className={utilStyles.projectRow} style={{margin: 0}}>
-                            <Image rounded src='../../images/nadine/nadineHeader.png' />
+                        <a href='https://nadine-elnesr.web.app/' target='_blank' rel="noopener noreferrer">
+                            <Image rounded src='../../images/nadine/nadineHeader.png'  className={utilStyles.projectRow} style={{margin: 0}}/>                
+                            <div className={utilStyles.overlayArrow}>
+                                <i className='fas fa-globe fa-3x'></i>
+                            </div>
                         </a>
-                        <div className={utilStyles.overlayArrow}>
-                            <i className='fas fa-globe fa-3x'></i>
-                        </div>
                     </Card>
                 </Container>
                 

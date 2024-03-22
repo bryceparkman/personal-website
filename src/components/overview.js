@@ -27,11 +27,11 @@ export default function ProjectOverview() {
                                 </div>
                             </Col>
                         </Row>
-                    </Container>
+                    </Container>             
+                    <div className={utilStyles.overlayArrow}>
+                        <i className='fa fa-arrow-right fa-3x'></i>
+                    </div>
                 </Link>
-                <div className={utilStyles.overlayArrow}>
-                    <i className='fa fa-arrow-right fa-3x'></i>
-                </div>
             </Card>
 
             <Card className={utilStyles.projectCard}>
@@ -54,10 +54,10 @@ export default function ProjectOverview() {
                             </Col>
                         </Row>
                     </Container>
+                    <div className={utilStyles.overlayArrow}>
+                        <i className='fa fa-arrow-right fa-3x'></i>
+                    </div>
                 </Link>
-                <div className={utilStyles.overlayArrow}>
-                    <i className='fa fa-arrow-right fa-3x'></i>
-                </div>
             </Card>
 
             <Card className={utilStyles.projectCard}>
@@ -81,10 +81,10 @@ export default function ProjectOverview() {
                             </Col>
                         </Row>
                     </Container>
+                    <div className={utilStyles.overlayArrow}>
+                        <i className='fa fa-arrow-right fa-3x'></i>
+                    </div>
                 </Link>
-                <div className={utilStyles.overlayArrow}>
-                    <i className='fa fa-arrow-right fa-3x'></i>
-                </div>
             </Card>
 
         </>

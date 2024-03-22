@@ -17,12 +17,12 @@ export default function Mask() {
                 </section>
                 <Container>
                     <Card className={utilStyles.projectCard}>
-                        <a href='https://github.com/bryceparkman/MASKerAID' target='_blank' rel="noopener noreferrer" className={utilStyles.projectRow} style={{margin: 0}}>
-                            <Image rounded src='../../images/mask/maskHeader.png' />
-                        </a>
-                        <div className={utilStyles.overlayArrow}>
-                            <i className='fab fa-github fa-3x'></i>
-                        </div>
+                        <a href='https://github.com/bryceparkman/MASKerAID' target='_blank' rel="noopener noreferrer">
+                            <Image rounded src='../../images/mask/maskHeader.png'  className={utilStyles.projectRow} style={{margin: 0}}/>
+                            <div className={utilStyles.overlayArrow}>
+                                <i className='fab fa-github fa-3x'></i>
+                            </div>
+                        </a>                     
                     </Card>
                 </Container>
                 
