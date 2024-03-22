@@ -14,12 +14,10 @@ export default function Wrapper({ children, page }) {
                 </div>
             }
             {page !== 'home' && page !== 'individualVis' &&
-                <div className={styles.navbar}>
-                    <OffHomeNavigation link="../" title="← Home" />
-                </div>
+                <OffHomeNavigation link="../"/>
             }
             {page === 'individualVis' && (
-                <OffHomeNavigation link="../../" title="← Home" />
+                <OffHomeNavigation link="../../"/>
             )}
             <main>{children}</main>
         </div>
