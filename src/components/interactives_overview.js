@@ -1,22 +1,19 @@
-import Head from 'next/head';
 import Link from 'next/link'
-import Layout from '../../components/layout'
+import Wrapper from './wrapper'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
-import styles from '../../styles/utils.module.css'
+import styles from '../styles/utils.module.css'
 
 export default function Interactives() {
+    
     return (
-        <Layout page="interactives">
-            <Head>
-                <title>Bryce Parkman - Interactives</title>
-            </Head>
+        <Wrapper page="interactives">
             <Container>
                 <Row>
                     <Col lg={4}>
-                        <Link href='./projects/sketches/leaves'>
+                        <Link href='/interactives/leaves'>
                             <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/leaves.png" />
                                 <Card.Body>
@@ -29,7 +26,7 @@ export default function Interactives() {
                         </Link>
                     </Col>
                     <Col lg={4}>
-                        <Link href='sketches/hue'>
+                        <Link href='/interactives/hue'>
                             <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/hue.png" />
                                 <Card.Body>
@@ -42,7 +39,7 @@ export default function Interactives() {
                         </Link>
                     </Col>
                     <Col lg={4}>
-                        <Link href='sketches/flock'>
+                        <Link href='/interactives/flock'>
                             <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/flock.png" />
                                 <Card.Body>
@@ -57,7 +54,7 @@ export default function Interactives() {
                 </Row>
                 <Row>
                     <Col lg={4}>
-                        <Link href='sketches/wiggle'>
+                        <Link href='/interactives/blob'>
                             <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/wiggle.png" />
                                 <Card.Body>
@@ -70,7 +67,7 @@ export default function Interactives() {
                         </Link>
                     </Col>
                     <Col lg={4}>
-                        <Link href='sketches/cat'>
+                        <Link href='/interactives/tilePhysics'>
                             <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/cat.png" />
                                 <Card.Body>
@@ -83,7 +80,7 @@ export default function Interactives() {
                         </Link>
                     </Col>
                     <Col lg={4}>
-                        <Link href='sketches/pi'>
+                        <Link href='/interactives/pi'>
                             <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/pi.png" />
                                 <Card.Body>
@@ -98,7 +95,7 @@ export default function Interactives() {
                 </Row>
                 <Row>         
                     <Col lg={4}>
-                        <Link href='sketches/recaman'>
+                        <Link href='/interactives/recaman'>
                             <Card className={styles.interactivesCard}>
                                 <Card.Img variant="top" src="/images/recaman.png" />
                                 <Card.Body>
@@ -112,6 +109,6 @@ export default function Interactives() {
                     </Col>
                 </Row>
             </Container>
-        </Layout>
+        </Wrapper>
     )
 }
