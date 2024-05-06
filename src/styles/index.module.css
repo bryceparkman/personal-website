@@ -4,38 +4,39 @@
 }
 
 .header {
-    padding: 20vh 20vh 0vh;
+    padding: 20vh 20vh 10vh;
     max-width: none;
     position: relative;
     z-index: 1;
 }
 
+.headerHeadshot {
+    min-width: 30vw;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .nameHeader {
-    font-size: 3em;
+    font-size: 5vw;
     font-family: 'Palanquin', sans-serif;
 }
 
-.headerHeadshot {
-    width: 25vw;
-    height: 25vw;
-}
-
 .contactBar {
+    min-width: 24vw;
     display: flex;
     background-color: rgb(25, 50, 75);
     position: relative;
-    margin-left: 3vw;
+    margin: 0 3vw;
     padding: 5px 0;
-    width: 20vw;
-    top: -25px;
     justify-content: center;
     border-radius: 10px;
 }
 
 .contacts {
     color: white;
-    padding: 0 2vw;
-    font-size: 2em;
+    padding: 0 2.5vw;
+    font-size: 3vw;
 }
 
 .contacts:hover {
@@ -43,7 +44,7 @@
 }
 
 .portfolioHeader {
-    font-size: 3em;
+    font-size: 5vw;
     position: relative;
     z-index: 1;
     text-align: center;

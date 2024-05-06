@@ -11,12 +11,12 @@ export default function ProjectOverview() {
         <>
             <Card className={utilStyles.projectCard}>
                 <Link href='/nadine' style={{ textDecoration: 'none' }}>
-                    <Container style={{margin: 0, width: 'inherit'}}>
+                    <Container style={{margin: 0}}>
                         <Row className={utilStyles.projectRow}>
-                            <Col lg={3}>
-                                <Image rounded src="/images/nadine/nadineOverview.png" />
+                            <Col sm={3}>
+                                <Image rounded src="/images/nadine/nadineOverview.png" className={utilStyles.projectImage}/>
                             </Col>
-                            <Col lg>
+                            <Col sm={9} style={{fontSize: "2vw"}}>
                                 <h2>
                                     Nadine El Nesr
                                 </h2>
@@ -38,10 +38,10 @@ export default function ProjectOverview() {
                 <Link href='/bridges' style={{ textDecoration: 'none' }}>
                     <Container style={{margin: 0}}>
                         <Row className={utilStyles.projectRow}>
-                            <Col lg={3}>
-                                <Image rounded src="/images/bridges/bridges.png" />
+                            <Col sm={3}>
+                                <Image rounded src="/images/bridges/bridges.png" className={utilStyles.projectImage} />
                             </Col>
-                            <Col lg>
+                            <Col sm={9} style={{fontSize: "2vw"}}>
                                 <h2>
                                     Student Bridges
                                 </h2>
@@ -64,10 +64,10 @@ export default function ProjectOverview() {
                 <Link href='/mask' style={{ textDecoration: 'none' }}>
                     <Container style={{margin: 0}}>
                         <Row className={utilStyles.projectRow}>
-                            <Col lg={3}>
-                                <Image rounded src="/images/mask/mask.png" />
+                            <Col sm={3}>
+                                <Image rounded src="/images/mask/mask.png" className={utilStyles.projectImage} />
                             </Col>
-                            <Col lg>
+                            <Col sm={9} style={{fontSize: "2vw"}}>
                                 <h2>
                                     MASKerAID
                                 </h2>

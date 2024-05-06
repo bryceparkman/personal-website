@@ -66,8 +66,15 @@
   color: white;
 }
 
+.projectImage {
+  position: relative;
+  min-width: 125px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .projectCard {
-  margin: 2vw 15vw;
+  margin: 2vw 8vw;
   background-color: rgb(25, 50, 75);
   font-family: 'Palanquin', sans-serif;
 }

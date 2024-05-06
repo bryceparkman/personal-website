@@ -68,14 +68,14 @@ export default function Home() {
               <Col sm={8} className="ml-auto mr-auto">
                 <div>
                   <h1 className={styles.nameHeader}>Hi, I'm Bryce.</h1>
-                  <div style={{ fontSize: '1.45vw', marginTop: '2vw' }}>
+                  <div style={{ fontSize: '1.8vw', marginTop: '2vw' }}>
                     I am a software developer experienced in full stack web development, app development, and mathematical visualization based in Boston, MA. I graduated with a degree 
                     in Computer Science and Mathematics from the University of Massachusetts Amherst. During this time I was a tech lead at BUILD UMass, a pro-bono tech consulting 
                     organization ran by students. Outside of my professional aspirations you can find me rock climbing, slacklining, hiking, and picking up a new hobby or skill.
                   </div>
                 </div>
               </Col>
-              <Col sm={4} className="ml-auto mr-auto">
+              <Col md={4} className="ml-auto mr-auto">
                 <img
                   src="/images/profile.jpeg"
                   className={styles.headerHeadshot}
