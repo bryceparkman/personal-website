@@ -11,12 +11,12 @@ export default function ProjectOverview() {
         <>
             <Card className={utilStyles.projectCard}>
                 <Link href='/nadine' style={{ textDecoration: 'none' }}>
-                    <Container style={{margin: 0}}>
+                    <div>
                         <Row className={utilStyles.projectRow}>
                             <Col sm={3}>
                                 <Image rounded src="/images/nadine/nadineOverview.png" className={utilStyles.projectImage}/>
                             </Col>
-                            <Col sm={9} style={{fontSize: "2vw"}}>
+                            <Col sm={9} className={utilStyles.projectDescription}>
                                 <h2>
                                     Nadine El Nesr
                                 </h2>
@@ -27,7 +27,7 @@ export default function ProjectOverview() {
                                 </div>
                             </Col>
                         </Row>
-                    </Container>             
+                    </div>             
                     <div className={utilStyles.overlayArrow}>
                         <i className='fa fa-arrow-right fa-3x'></i>
                     </div>
@@ -36,12 +36,12 @@ export default function ProjectOverview() {
 
             <Card className={utilStyles.projectCard}>
                 <Link href='/bridges' style={{ textDecoration: 'none' }}>
-                    <Container style={{margin: 0}}>
+                    <div>
                         <Row className={utilStyles.projectRow}>
                             <Col sm={3}>
                                 <Image rounded src="/images/bridges/bridges.png" className={utilStyles.projectImage} />
                             </Col>
-                            <Col sm={9} style={{fontSize: "2vw"}}>
+                            <Col sm={9} className={utilStyles.projectDescription}>
                                 <h2>
                                     Student Bridges
                                 </h2>
@@ -53,7 +53,7 @@ export default function ProjectOverview() {
                                 </div>
                             </Col>
                         </Row>
-                    </Container>
+                    </div>
                     <div className={utilStyles.overlayArrow}>
                         <i className='fa fa-arrow-right fa-3x'></i>
                     </div>
@@ -62,12 +62,12 @@ export default function ProjectOverview() {
 
             <Card className={utilStyles.projectCard}>
                 <Link href='/mask' style={{ textDecoration: 'none' }}>
-                    <Container style={{margin: 0}}>
+                    <div>
                         <Row className={utilStyles.projectRow}>
                             <Col sm={3}>
                                 <Image rounded src="/images/mask/mask.png" className={utilStyles.projectImage} />
                             </Col>
-                            <Col sm={9} style={{fontSize: "2vw"}}>
+                            <Col sm={9} className={utilStyles.projectDescription}>
                                 <h2>
                                     MASKerAID
                                 </h2>
@@ -80,7 +80,7 @@ export default function ProjectOverview() {
                                 </div>
                             </Col>
                         </Row>
-                    </Container>
+                    </div>
                     <div className={utilStyles.overlayArrow}>
                         <i className='fa fa-arrow-right fa-3x'></i>
                     </div>

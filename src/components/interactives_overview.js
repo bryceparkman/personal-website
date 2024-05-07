@@ -11,7 +11,7 @@ export default function Interactives() {
     return (
         <Wrapper page="interactives">
             <Container>
-                <Row>
+                <Row className={styles.interactivesRow}>
                     <Col lg={4}>
                         <Link href='/interactives/leaves'>
                             <Card className={styles.interactivesCard}>
@@ -52,7 +52,7 @@ export default function Interactives() {
                         </Link>
                     </Col>
                 </Row>
-                <Row>
+                <Row className={styles.interactivesRow}>
                     <Col lg={4}>
                         <Link href='/interactives/blob'>
                             <Card className={styles.interactivesCard}>
@@ -93,7 +93,7 @@ export default function Interactives() {
                         </Link>
                     </Col>
                 </Row>
-                <Row>         
+                <Row className={styles.interactivesRow}>         
                     <Col lg={4}>
                         <Link href='/interactives/recaman'>
                             <Card className={styles.interactivesCard}>

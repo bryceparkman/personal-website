@@ -17,6 +17,17 @@
     transform: translateY(-50%);
 }
 
+.bio {
+    font-size: 1.8vw;
+    margin-top: 2vw;
+}
+
+@media (min-width: 1280px) {
+    .bio {
+        font-size: 1.6vw;
+    }
+}
+
 .nameHeader {
     font-size: 5vw;
     font-family: 'Palanquin', sans-serif;

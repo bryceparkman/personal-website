@@ -79,11 +79,31 @@
   font-family: 'Palanquin', sans-serif;
 }
 
+.projectDescription {
+  font-size: 1.6vw;
+}
+
 .interactivesCard {
   cursor: 'pointer';
   margin-top: 20px;
   background-color: rgb(25, 50, 75);
   color: white;
+}
+
+
+@media (max-width: 975px) {
+  .interactivesRow {
+    margin: 2vw 8vw;
+  } 
+  .projectDescription {
+    font-size: 1.7vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .projectDescription {
+      font-size: 1.3vw;
+  }
 }
 
 .individualProjectPage {
