@@ -4,7 +4,6 @@
   z-index: 1;
   width: 100%;
   font-family: 'Palanquin', sans-serif;
-  color: black;
   font-size: x-large;
   background-color: rgb(25, 50, 75);
   z-index: 2;
@@ -42,4 +41,14 @@
   text-decoration-thickness: 5px;
   display: inline;
   color: #F4A259 !important;
+}
+
+@media (max-width: 575px) {
+  .navbarActive {
+    color: white !important;
+  }
+
+  .navbarActive, .navbarActive:hover {
+    text-decoration: none;
+  }
 }

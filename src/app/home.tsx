@@ -3,6 +3,7 @@ import Wrapper from '../components/wrapper.js'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
+import Card from 'react-bootstrap/Card'
 import styles from '../styles/index.module.css'
 import ProjectOverview from '../components/overview.js'
 import Interactives from '../components/interactives_overview.js'
@@ -65,17 +66,13 @@ export default function Home() {
           />
           <Container className={styles.header} id='topAnchor'>
             <Row>
-              <Col sm={8} className="ml-auto mr-auto">
+              <Col className="ml-auto mr-auto mt-auto mb-auto">
                 <div>
                   <h1 className={styles.nameHeader}>Hi, I'm Bryce.</h1>
-                  <div className={styles.bio}>
-                    I am a software developer experienced in full stack web development, app development, and mathematical visualization based in Boston, MA. I graduated with a degree 
-                    in Computer Science and Mathematics from the University of Massachusetts Amherst. During this time I was a tech lead at BUILD UMass, a pro-bono tech consulting 
-                    organization ran by students. Outside of my professional aspirations you can find me rock climbing, slacklining, hiking, and picking up a new hobby or skill.
-                  </div>
+                  <h1 className={styles.bioHeader}>I'm a software developer with a focus on societal good and visualization.</h1>
                 </div>
               </Col>
-              <Col md={4} className="ml-auto mr-auto">
+              <Col className="ml-auto mr-auto">
                 <img
                   src="/images/profile.jpeg"
                   className={styles.headerHeadshot}
@@ -99,6 +96,13 @@ export default function Home() {
                   </a>
                 </div>
               </Col>
+            </Row>
+            <Row>
+              <div className={styles.bio}>
+                  Experienced in full stack web development, app development, and mathematical visualization. I graduated with a degree 
+                  in Computer Science and Mathematics from the University of Massachusetts Amherst. During this time I was a tech lead at BUILD UMass, a pro-bono tech consulting 
+                  organization ran by students. Previously worked for Epic Systems, improving home care clincians workflow on their laptop and mobile device. Outside of my professional life you can find me rock climbing, slacklining, hiking, and picking up a new hobby or skill.
+              </div>
             </Row>
           </Container>
           <div id='projectsAnchor'>

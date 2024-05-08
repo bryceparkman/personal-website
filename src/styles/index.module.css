@@ -4,28 +4,23 @@
 }
 
 .header {
-    padding: 20vh 20vh 10vh;
+    padding: 10vw 12vw 5vw;
     max-width: none;
     position: relative;
     z-index: 1;
 }
 
 .headerHeadshot {
-    min-width: 30vw;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .bio {
-    font-size: 1.8vw;
-    margin-top: 2vw;
-}
-
-@media (min-width: 1280px) {
-    .bio {
-        font-size: 1.6vw;
-    }
+    font-size: 2vw;
+    margin-top: 5vw;
+    text-align: center;
+    font-family: 'Palanquin', sans-serif;
 }
 
 .nameHeader {
@@ -33,12 +28,17 @@
     font-family: 'Palanquin', sans-serif;
 }
 
+.bioHeader {
+    font-size: 3vw;
+    font-family: 'Palanquin', sans-serif;
+}
+
 .contactBar {
-    min-width: 24vw;
+    min-width: 19vw;
     display: flex;
     background-color: rgb(25, 50, 75);
     position: relative;
-    margin: 0 3vw;
+    margin: 0 2vw;
     padding: 5px 0;
     justify-content: center;
     border-radius: 10px;
@@ -46,7 +46,7 @@
 
 .contacts {
     color: white;
-    padding: 0 2.5vw;
+    padding: 0 2vw;
     font-size: 3vw;
 }
 
@@ -66,4 +66,23 @@
     display: block;
     position: relative;
     visibility: hidden;
+}
+
+@media (min-width: 1280px) {
+    .bio {
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 750px) {
+    .headerHeadshot {
+        max-width: 35vw;
+        padding-top: 20px
+    }
+    .contactBar {
+        margin: 0 3vw;
+    }
+    .contacts {
+        padding: 0 3vw;
+    }
 }

@@ -4,7 +4,6 @@ import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
-import Container from 'react-bootstrap/Container'
 
 export default function ProjectOverview() {
     return (
@@ -49,7 +48,7 @@ export default function ProjectOverview() {
                                     Collaborated in a six-person team to develop a website for the UMass Amherst organization Student Bridges,
                                     which provides easier college access for underrepresented students. The website allows these students to
                                     access Student Bridges contact information, calendars, and workshop details much easier than before and will
-                                    hopefully give this organizaiton more outreach. We built this website with Bootstrap, Express, NodeJS, and Firebase.
+                                    hopefully give this organization more outreach. We built this website with Bootstrap, Express, NodeJS, and Firebase.
                                 </div>
                             </Col>
                         </Row>
