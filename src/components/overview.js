@@ -9,7 +9,7 @@ export default function ProjectOverview() {
     return (
         <>
             <Card className={utilStyles.projectCard}>
-                <Link href='/nadine' style={{ textDecoration: 'none' }}>
+                <Link href='https://nadine-elnesr.web.app/' target='_blank' style={{ textDecoration: 'none' }}>
                     <div>
                         <Row className={utilStyles.projectRow}>
                             <Col sm={3}>
@@ -34,7 +34,7 @@ export default function ProjectOverview() {
             </Card>
 
             <Card className={utilStyles.projectCard}>
-                <Link href='/bridges' style={{ textDecoration: 'none' }}>
+                <Link href='https://studentbridgesagency.org/' target='_blank' style={{ textDecoration: 'none' }}>
                     <div>
                         <Row className={utilStyles.projectRow}>
                             <Col sm={3}>
@@ -60,7 +60,7 @@ export default function ProjectOverview() {
             </Card>
 
             <Card className={utilStyles.projectCard}>
-                <Link href='/mask' style={{ textDecoration: 'none' }}>
+                <Link href='https://github.com/bryceparkman/MASKerAID' target='_blank' style={{ textDecoration: 'none' }}>
                     <div>
                         <Row className={utilStyles.projectRow}>
                             <Col sm={3}>

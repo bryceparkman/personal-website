@@ -90,22 +90,6 @@
   color: white;
 }
 
-
-@media (max-width: 975px) {
-  .interactivesRow {
-    margin: 2vw 8vw;
-  } 
-  .projectDescription {
-    font-size: 1.7vw;
-  }
-}
-
-@media (min-width: 1440px) {
-  .projectDescription {
-      font-size: 1.3vw;
-  }
-}
-
 .individualProjectPage {
   font-family: 'Palanquin', sans-serif;
 }
@@ -153,4 +137,52 @@
 .header {
   font-size: 100px;
   color: #41273b;
+}
+
+@media (max-width: 975px) {
+  .interactivesRow {
+    margin: 2vw 8vw;
+    
+  } 
+  .projectDescription {
+    font-size: 1.7vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .projectDescription {
+    padding-left: 5vw;
+  }
+}
+
+@media (max-width: 575px) {
+  .projectDescription {
+    padding-top: 3vw;
+    font-size: 2.5vw;
+  }
+  .projectDescription > h2 {
+    font-size: 5vw;
+  }
+  .projectImage {
+    max-width: 60vw;
+    margin: auto;
+  }
+  .interactivesDescription {
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .projectDescription {
+      font-size: 1.3vw;
+  }
+}
+
+@media (hover: none) {
+  .projectCard:hover {
+    opacity: 1;
+  }
+  .overlayArrow {
+    display: none;
+  }
 }

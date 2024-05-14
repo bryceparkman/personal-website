@@ -18,11 +18,11 @@ export function InteractivesClient() {
         },
         'hue': {
             title: 'I Love Hue Remake',
-            link: 'https://editor.p5js.org/brycecparkman/embed/5Bv_YGAdi'
+            link: 'https://editor.p5js.org/brycecparkman/full/5Bv_YGAdi'
         },
         'leaves': {
             title: 'Falling, Changing',
-            link: 'https://editor.p5js.org/brycecparkman/embed/C5WPTqD4-'
+            link: 'https://editor.p5js.org/brycecparkman/full/C5WPTqD4-'
         },
         'pi': {
             title: 'Pi Collisions',
@@ -49,7 +49,7 @@ export function InteractivesClient() {
     
     return (
         <div className={utilStyles.headingMdPadding}> 
-            <iframe src={link} width={640} height={500} frameBorder={0}></iframe>
+            <iframe src={link} width={640} height={500} frameBorder={0} style={{margin: "auto"}}></iframe>
         </div>
     );
 }

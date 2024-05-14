@@ -101,7 +101,7 @@ export default function Home() {
               <div className={styles.bio}>
                   Experienced in full stack web development, app development, and mathematical visualization. I graduated with a degree 
                   in Computer Science and Mathematics from the University of Massachusetts Amherst. During this time I was a tech lead at BUILD UMass, a pro-bono tech consulting 
-                  organization ran by students. Previously worked for Epic Systems, improving home care clincians workflow on their laptop and mobile device. Outside of my professional life you can find me rock climbing, slacklining, hiking, and picking up a new hobby or skill.
+                  organization ran by students. Previously worked for Epic Systems, improving home care clincian workflows on both laptops and mobile devices. Outside of my professional life you can find me rock climbing, slacklining, hiking, and picking up a new hobby or skill.
               </div>
             </Row>
           </Container>
